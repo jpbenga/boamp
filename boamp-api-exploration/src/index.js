@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { runExploration } from './boamp/boampExplorer.js';
 import { buildFieldInventory } from './boamp/boampSchemaInspector.js';
 import { normalizeBoampRecord } from './boamp/boampNormalizer.js';
-import { companyFixture } from './fixtures/company.fixture.js';
+import { companyFixtures } from './fixtures/company.fixture.js';
 import { scoreOpportunity } from './matching/basicMatcher.js';
 import { writeJson, writeText } from './utils/fileWriter.js';
 
@@ -73,7 +73,7 @@ ${exploration.successes.filter((s) => s.fallbackUsed).map((s) => `- ${s.name}: $
 - Échantillon enregistré dans output/normalized/boamp-normalized-sample.json
 
 ## 14. Résultats du matching sur la fixture entreprise
-- Nombre d’opportunités scorées: ${matchingResults.length}
+- Nombre d’opportunités scorées: ${matchingResults.reduce((a, c) => a + c.results.length, 0)}
 
 ## 15. Limites observées
 - Variabilité des champs selon avis.
@@ -118,7 +118,12 @@ async function main() {
   const normalizedSample = baseRecords.slice(0, 10).map(normalizeBoampRecord);
   await writeJson(path.join(projectRoot, 'output/normalized/boamp-normalized-sample.json'), normalizedSample);
 
-  const matchingResults = normalizedSample.map((n) => scoreOpportunity(n, companyFixture));
+  const matchingResults = companyFixtures.map((company) => ({
+    companyId: company.id,
+    companyName: company.name,
+    activity: company.activity.label,
+    results: normalizedSample.map((n) => scoreOpportunity(n, company))
+  }));
   await writeJson(path.join(projectRoot, 'output/reports/matching-results.json'), matchingResults);
 
   const report = buildReport({ exploration, inventory, normalizedSample, matchingResults });

@@ -1,33 +1,33 @@
 # Rapport d’exploration API BOAMP
 
 ## 1. Date d’exécution
-- 2026-05-23T17:31:44.800Z
+- 2026-05-23T20:08:35.016Z
 
 ## 2. Endpoint testé
 - https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records
 
 ## 3. Résumé des appels effectués
 - Nombre total d'appels: 13
-- Succès: 13
-- Échecs: 0
+- Succès: 0
+- Échecs: 13
 
 ## 4. Requêtes réussies
-- no-filter: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5
-- query-espaces verts: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&q=espaces+verts
-- query-nettoyage: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&q=nettoyage
-- query-entretien paysager: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&q=entretien+paysager
-- query-élagage: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&q=%C3%A9lagage
-- query-maintenance informatique: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&q=maintenance+informatique
-- pagination-1: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&offset=0
-- pagination-2: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&offset=10
-- pagination-3: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&offset=20
-- select-all: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&select=*
-- where-date: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&where=dateparution+%3E%3D+date%272026-01-01%27
-- where-objet: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=20&where=objet+like+%22%25espaces+verts%25%22
-- where-dept: https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=20&where=code_departement%3D%2269%22+OR+code_departement_prestation%3D%2269%22
+- Aucune
 
 ## 5. Requêtes échouées
-- Aucune
+- no-filter: REQUEST_FAILED (fetch failed)
+- query-espaces verts: REQUEST_FAILED (fetch failed)
+- query-nettoyage: REQUEST_FAILED (fetch failed)
+- query-entretien paysager: REQUEST_FAILED (fetch failed)
+- query-élagage: REQUEST_FAILED (fetch failed)
+- query-maintenance informatique: REQUEST_FAILED (fetch failed)
+- pagination-1: REQUEST_FAILED (fetch failed)
+- pagination-2: REQUEST_FAILED (fetch failed)
+- pagination-3: REQUEST_FAILED (fetch failed)
+- select-all: REQUEST_FAILED (fetch failed)
+- where-date: REQUEST_FAILED (fetch failed)
+- where-objet: REQUEST_FAILED (fetch failed)
+- where-dept: REQUEST_FAILED (fetch failed)
 
 ## 5.b Fallbacks activés
 - Aucun
@@ -50,7 +50,7 @@
 - Clés racine observées: total_count, results (selon réponses OK).
 
 ## 9. Inventaire des champs détectés
-- Nombre de champs inventoriés: 41
+- Nombre de champs inventoriés: 0
 
 ## 10. Mapping des champs BOAMP vers le modèle interne
 - Mapping implémenté dans src/boamp/boampNormalizer.js (id, title, buyer, dates, CPV, lieu, URLs).
@@ -65,7 +65,7 @@
 - Échantillon enregistré dans output/normalized/boamp-normalized-sample.json
 
 ## 14. Résultats du matching sur la fixture entreprise
-- Nombre d’opportunités scorées: 10
+- Nombre d’opportunités scorées: 0
 
 ## 15. Limites observées
 - Variabilité des champs selon avis.
