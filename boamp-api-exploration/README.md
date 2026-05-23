@@ -98,3 +98,23 @@ Après exécution, les principaux artefacts sont :
 ## Prochaine étape recommandée
 
 Créer un **module partagé de normalisation** (réutilisable) puis brancher une seconde source (TED ou plateforme acheteur) pour valider l'approche multi-sources avant industrialisation.
+
+## Dashboard visuel (tailwind)
+
+Pour suivre visuellement les étapes de faisabilité (points 1, 2, 5 et 6) et voir les erreurs :
+
+```bash
+npm run dashboard
+```
+
+Puis ouvrir :
+
+- `http://localhost:4173/dashboard`
+
+Le dashboard affiche :
+
+- KPI globaux (profils, scorings, score moyen, complétude deadline) ;
+- synthèse par étape (1, 2, 5, 6) ;
+- sélection d'un profil entreprise ;
+- tableau détaillé des offres avec score, décision, raisons et risques ;
+- bloc d’alertes/erreurs.
