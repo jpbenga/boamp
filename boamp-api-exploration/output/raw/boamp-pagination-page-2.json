@@ -1,6 +1,615 @@
 {
-  "ok": false,
+  "ok": true,
   "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&offset=10",
-  "error": "REQUEST_FAILED",
-  "details": "fetch failed"
+  "status": 200,
+  "data": {
+    "total_count": 1669132,
+    "results": [
+      {
+        "idweb": "15-31232",
+        "id": "15_31232",
+        "contractfolderid": null,
+        "objet": "fourniture aux organismes du régime minier de sécurité sociale, d'ordinateurs portables, de tablettes, d'accessoires et de prestations associées, à Paris",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "75"
+        ],
+        "code_departement_prestation": "75",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-04-17",
+        "datelimitereponse": "2015-04-17T11:00:00+00:00",
+        "nomacheteur": "CANSSM",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": [
+          "environnementaux"
+        ],
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "162"
+        ],
+        "dc": [
+          "162"
+        ],
+        "descripteur_libelle": [
+          "Informatique (matériel)"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31232\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31232.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_LIMITE_REPONSE\": \"2015-04-17T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-17\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"30\", \"LIBELLE\": \"Machines de bureau et matériel informatique\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"162\", \"LIBELLE\": \"Informatique (matériel)\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"75\", \"DEP_PRESTATION\": \"75\", \"RESUME_OBJET\": \"fourniture aux organismes du régime minier de sécurité sociale, d'ordinateurs portables, de tablettes, d'accessoires et de prestations associées, à Paris\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CANSSM\", \"CORRESPONDANT\": \"Marchés Service\", \"ADRESSE\": \"77 Avenue de Ségur\", \"CP\": \"75714\", \"VILLE\": \"Paris cedex 15\", \"MEL\": \"service.marches@secumines.org\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\", \"PROTECTION_SOCIALE\": \"\", \"AUTRE\": \"organisme privée de sécurité sociale\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture aux organismes du régime minier de sécurité sociale, d'ordinateurs portables, de tablettes, d'accessoires et de prestations associées\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture aux organismes du régime minier de sécurité sociale, d'ordinateurs portables, de tablettes, d'accessoires et de prestations associées\", \"CPV\": [{\"PRINCIPAL\": \"30213100\"}, {\"PRINCIPAL\": \"30213200\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"France entière\", \"CODE_NUTS\": \"FR\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"La procédure de consultation utilisée est celle de l'appel d'offres ouvert, en application des articles 33 et 57, 58 et 59 du code des marchés publics.Le marché reste soumis à la réglementation applicable aux marchés des organismes de sécurité sociale, soit à ce jour, les dispositions de l'arrêté du 16 juin 2008 portant réglementation des marchés publics des organismes de sécurité sociale, modifié par arrêté du 3 novembre 2011, portant réglementation sur les marchés des organismes de sécurité sociale.Le marché est un marché à bons de commande sans minimum ni maximum en application de l'article 77 du code des marchés publics.Dans le cadre de la réalisation des prestations du marché, il est prévu de recourir à l'article 35-II-6 relatif aux marchés similaires en cas de besoin. Le marché sera conclu pour une période de 12 mois à compter de sa date de notification. Il sera ensuite reconductible trois fois de manière expresse au plus tard un mois avant sa date anniversaire pour une durée de 12 mois sans pouvoir excéder une durée totale (reconduction comprise) de quatre ans.\", \"OPTIONS\": {\"NON\": \"\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"3\", \"DUREE_MOIS\": \"12\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Coût total d'acquisition et d'utilisation\"}, {\"@POIDS\": \"45\", \"#text\": \"Valeur technique des équipements et des services associés\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"180\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Le candidat sera dispensé du versement de la retenue de garantie\", \"FINANCEMENT\": \"La forme des prix est unitaire et ferme par équipements ou prestations associées pour les 12 premiers mois, puis révisable.Conformément à l'article 98 du code des marchés publics, le délai global de paiement ne peut excéder 30 jours à compter de la date de réception de la facture par les services du Régime Minier.Le dépassement du délai de paiement est constitué dès lors que les sommes dues au créancier, qui a rempli ses obligations légales et contractuelles, ne sont pas versées par le pouvoir adjudicateur à l'échéance prévue au contrat ou l'expiration du délai de paiement. Ce dépassement ouvre de plein droit et sans autre formalité, pour le titulaire du marché ou le sous-traitant, au bénéfice d'intérêts moratoires, à compter du jour suivant l'expiration du délai, ainsi que d'une indemnité forfaitaire dont les modalités sont visées ci-après.Le taux applicable pour le calcul des intérêts moratoires est égal au taux d'intérêt de la principale facilité de refinancement appliquée par la banque centrale européenne à son opération de refinancement la plus récente effectuée avant le premier jour du calendrier du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de huit points.\", \"FORME_JURIDIQUE\": \"Les opérateurs économiques sont autorisés à se porter candidat sous forme de groupement solidaire ou de groupement conjoint, sous réserve du respect des règles relatives à la concurrence et conformément aux dispositions de l'article 51 du Code des Marchés Publics.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Une lettre de candidature (imprimé DC 1, ancien DC4, ou équivalent) disponible sur le site du Ministère de l'Economie à l'adresse suivante :  http://www.economie.gouv.fr/daj/formulaires-declaration-candidat ;- Une déclaration du candidat (imprimé DC 2, ancien DC5, ou équivalent) disponible sur le site du Ministère de l'Economie à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-candidatpour chaque candidat qui serait signataire du marché.- Déclaration sur l'honneur dûment datée et signée justifiant que le candidat n'entre dans aucun des cas des interdictions de soumissionner aux marchés mentionnés à l'article 43 du code des marchés publics ; Il est rappelé que les certificats fiscaux et sociaux ne sont plus exigés au niveau de la candidature, seule l'attestation sur l'honneur pouvant être produite ;- La copie du ou des jugements prononcés, s'il est en redressement judiciaire - Les documents adéquats relatifs aux pouvoirs de la personne signataire des documents susmentionnés, habilitée pour engager le candidat\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des trois derniers exercices disponibles ;- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels ;\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ;- Présentation d'une liste des principales fournitures en lien avec l'objet du marché effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"AO 15 SI 0001\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"TELECHARGEMENT DCELe dossier de consultation sera exclusivement téléchargeable sur la plateforme de dématérialisation Achat Public à l'adresse suivante : https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_I9luuEhaCJPRIX ET LANGUESL'ensemble du dossier sera entièrement rédigé en langue française et les prix seront exprimés en euros.REMISE DES OFFRESLes plis contenant les éléments relatifs à la candidature et à l'offre visées ci-dessus, devront être reçus avant le 17 AVRIL 2015 à 12h00, délai de rigueur et devront être obligatoirement déposés, en application de l'article 56 II du Code des Marchés Publics, par voie électronique auprès du portail de dématérialisation des marchés des organismes de sécurité sociale :https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_I9luuEhaCJdans le respect des règles et délais fixés et selon la procédure décrite à l'article 7du règlement de consultationRENSEIGNEMENTS COMPLEMENTAIRESPour obtenir tous les renseignements qui leur sembleraient nécessaires, les candidats devront faire une demande écrite par le biais de la plate forme de dématérialisation des échanges, sur le site Internet suivant : https://canssm.achatpublic.com/sdm/ent/gen/index.doL'accès à la rubrique \\\" questions/réponses \\\" de la présente consultation nécessite une inscription préalable sur ce site.Ces demandes devront parvenir dans un délai raisonnable, soit au plus tard le 07 avril 2015 à 12h00, pour permettre à la CANSSM de communiquer les éléments de réponse complémentaires éventuellement obtenus à cette occasion à l'ensemble des candidats par le biais de la plateforme de dématérialisation au plus tard le 10 avril 2015 à 12h00.SOUS CRITERESLa valeur technique sera appréciée sur la base des sous critères suivants : qualité de la maintenance, du support SAV et de la relation client 10 points, évolutivité / Stabilité de la gamme / Praticité- Ergonomie 10 points, aptitude technique 10 points, qualité du catalogue proposé, et clarté du tarif applicable 5 points, qualité et fiabilité du matériel et des services 5 points, valeur environnementale 5 points.. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de grande instance de Paris\", \"ADRESSE\": \"4 boulevard du palais\", \"CP\": \"75055\", \"VILLE\": \"Paris cedex 01\", \"TEL\": \"(+33) 1-44-32-51-51\", \"FAX\": \"(+33) 1-44-32-78-56\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal de grande instance de Paris\", \"ADRESSE\": \"4 boulevard du palais\", \"CP\": \"75055\", \"VILLE\": \"Paris cedex 01\", \"TEL\": \"(+33) 1-44-32-51-51\", \"FAX\": \"(+33) 1-44-32-78-56\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"CANSSM\", \"ADRESSE\": \"77 avenue de Segur\", \"CP\": \"75014\", \"VILLE\": \"Paris cedex 15\", \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_I9luuEhaCJ\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31232"
+      },
+      {
+        "idweb": "15-31314",
+        "id": "15_31314",
+        "contractfolderid": null,
+        "objet": "système de soudage par friction stir welding (fsw) à Assat",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "65"
+        ],
+        "code_departement_prestation": "64",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-04-23",
+        "datelimitereponse": "2015-04-23T16:00:00+00:00",
+        "nomacheteur": "Ecole Nationale d'Ingénieurs de Tarbes",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "194"
+        ],
+        "dc": [
+          "194"
+        ],
+        "descripteur_libelle": [
+          "Machines-outils"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31314\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31314.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_LIMITE_REPONSE\": \"2015-04-23T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-23\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"29\", \"LIBELLE\": \"Machines et équipements\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"194\", \"LIBELLE\": \"Machines-outils\"}}, \"DEP_PUBLICATION\": \"65\", \"DEP_PRESTATION\": \"64\", \"RESUME_OBJET\": \"système de soudage par friction stir welding (fsw) à Assat\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ecole Nationale d'Ingénieurs de Tarbes\", \"CODE_IDENT_NATIONAL\": \"19650048200019\", \"CORRESPONDANT\": \"MASRI Talal, Directeur de l'école\", \"ADRESSE\": \"47 avenue d'Azereix BP 1629\", \"CP\": \"65016\", \"VILLE\": \"Tarbes\", \"TEL\": \"(+33) 5-62-44-27-00\", \"FAX\": \"(+33) 5-62-44-27-27\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Achat d'un système de soudage par Friction Stir Welding (FSW)\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Système de soudage par Friction Stir Welding (FSW)\", \"CPV\": {\"PRINCIPAL\": \"42662000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"CFAI - Pôle Aéropolis - 1 cours de l'Industrie\", \"CP\": \"64510\", \"VILLE\": \"ASSAT\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"6\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Valeur technique %\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix %\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai %\"}, {\"@POIDS\": \"10\", \"#text\": \"Références %\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-23T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Fonds régionaux\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.ladepeche-marchespublics.frUnité monétaire utilisée, l'euro.Renseignements administratifs:isabelle.perissere@enit.fr(0562442749)Renseignements techniques:gilles.dessein@enit.fr(0562442773). Date d'envoi du présent avis au JOUE et au BOAMP : 1 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Pau\", \"ADRESSE\": \"50 Cours Lyautey BP 543\", \"CP\": \"64010\", \"VILLE\": \"Pau\", \"TEL\": \"(+33) 5-59-84-94-40\", \"FAX\": \"(+33) 5-59-02-49-93\", \"MEL\": \"greffe.ta-pau@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ecole Nationale d'Ingénieurs\", \"ADRESSE\": \"47 avenue d'Azereix\", \"CP\": \"65016\", \"VILLE\": \"Tarbes\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31314"
+      },
+      {
+        "idweb": "15-31438",
+        "id": "15_31438",
+        "contractfolderid": null,
+        "objet": "nettoyage des locaux communaux de la ville, à Montrouge (rectificatif)",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "92"
+        ],
+        "code_departement_prestation": "92",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-03-31",
+        "datelimitereponse": null,
+        "nomacheteur": "Ville de Montrouge",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "RECTIFICATIF",
+        "descripteur_code": [
+          "239"
+        ],
+        "dc": [
+          "239"
+        ],
+        "descripteur_libelle": [
+          "Nettoyage de locaux"
+        ],
+        "type_marche": null,
+        "type_marche_facette": null,
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": [
+          "15-26190"
+        ],
+        "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"15-26190\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"37\", \"NUM_ANNONCE\": \"283\", \"DATE_PUBLICATION\": \"2015-02-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"037\", \"NUM_ANNONCE\": \"063606\", \"DATE_PUBLICATION\": \"2015-02-21\"}}]}",
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31438\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-26190\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"37\", \"NUM_ANNONCE\": \"283\", \"DATE_PUBLICATION\": \"2015-02-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"037\", \"NUM_ANNONCE\": \"063606\", \"DATE_PUBLICATION\": \"2015-02-21\"}}]}}, \"NOM_HTML\": \"15-31438.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_FIN_DIFFUSION\": \"2015-03-31\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": \"92\", \"DEP_PRESTATION\": \"92\", \"RESUME_OBJET\": \"nettoyage des locaux communaux de la ville, à Montrouge (rectificatif)\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Montrouge\", \"CORRESPONDANT\": \"M. Metton Jean-Loup\", \"ADRESSE\": \"43 Avenue de la République\", \"CP\": \"92121\", \"VILLE\": \"Montrouge cedex\", \"TEL\": \"(+33) -01-46-12-76-76\", \"MEL\": \"marches@ville-montrouge.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Nettoyage des locaux communaux\", \"OBJET_COMPLET\": \"Nettoyage des locaux communaux\", \"CPV\": {\"PRINCIPAL\": \"90900000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-26190\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"37\", \"NUM_ANNONCE\": \"283\", \"DATE_PUBLICATION\": \"2015-02-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"037\", \"NUM_ANNONCE\": \"063606\", \"DATE_PUBLICATION\": \"2015-02-21\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"Autres informations\", \"TXT_INIT\": \"Durée : 1 an à partir du 1er mai ou à compter de la date de notification si postérieure au 1er mai. Renouvelable 3 fois.\", \"LIRE\": \"Le marché aura une durée d'un an à compter de la date de démarrage des prestations d'entretien ménager notifiée par ordre de service. Renouvelable 3 fois.\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\"}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31438"
+      },
+      {
+        "idweb": "15-31441",
+        "id": "15_31441",
+        "contractfolderid": null,
+        "objet": "fourniture de tables et de sièges pour le restaurant universitaire des hauts du Chazal du CROUS à Besançon",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "25"
+        ],
+        "code_departement_prestation": "25",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-03-27",
+        "datelimitereponse": "2015-03-27T11:00:00+00:00",
+        "nomacheteur": "CROUS de Besançon",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "230"
+        ],
+        "dc": [
+          "230"
+        ],
+        "descripteur_libelle": [
+          "Mobilier"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31441\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31441.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_LIMITE_REPONSE\": \"2015-03-27T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-03-27\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"36\", \"LIBELLE\": \"Meubles et produits des industries diverses\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"25\", \"DEP_PRESTATION\": \"25\", \"RESUME_OBJET\": \"fourniture de tables et de sièges pour le restaurant universitaire des hauts du Chazal du CROUS à Besançon\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CROUS de Besançon\", \"CODE_IDENT_NATIONAL\": \"18250012400017\", \"CORRESPONDANT\": \"M. LECOQ Philippe\", \"CONTACT\": \"Service du Patrimoine et des Achats\", \"ADRESSE\": \"38 avenue de l'Observatoire\", \"CP\": \"25000\", \"VILLE\": \"Besançon\", \"TEL\": \"(+33) 3-81-48-46-06\", \"FAX\": \"(+33) 3-81-48-46-70\", \"MEL\": \"servicedupatrimoine@crous-besancon.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de tables et de sièges pour le Restaurant Universitaire des Hauts du Chazal du CROUS de Besançon\", \"CPV\": {\"PRINCIPAL\": \"39143200\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Besançon\", \"CP\": \"25000\", \"VILLE\": \"Besançon\", \"CODE_NUTS\": \"FR43\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"RECONDUCTIONS\": {\"NON\": \"\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Lot 1 : Tables de restaurant\", \"DESCRIPTION\": \"Lot 1 : Tables de restaurant\", \"CPV\": {\"PRINCIPAL\": \"39143200\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Lot 2 : Sièges de restaurant\", \"DESCRIPTION\": \"Lot 2 : Sièges de restaurant\", \"CPV\": {\"PRINCIPAL\": \"39143200\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Prix\"}, {\"@POIDS\": \"30\", \"#text\": \"Qualité des services\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur estéthique\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-03-27T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"MOBILIER HDC\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"CROUS de Besançon\", \"CODE_IDENT_NATIONAL\": \"18250012400017\", \"CORRESPONDANT\": \"M. LECOQ Philippe\", \"CONTACT\": \"Service du Patrimoine et des Achats\", \"ADRESSE\": \"38, Avenue de l'Observatoire\", \"CP\": \"25000\", \"VILLE\": \"Besançon\", \"TEL\": \"(+33) 3-81-48-46-06\", \"FAX\": \"(+33) 3-81-48-46-70\", \"MEL\": \"servicedupatrimoine@crous-besancon.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Besançon\", \"ADRESSE\": \"30, Rue Charles Nodier\", \"CP\": \"25000\", \"VILLE\": \"Besançon\", \"TEL\": \"(+33) 3-81-82-60-00\", \"MEL\": \"greffe.ta-besancon@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"CROUS de Besançon\", \"CODE_IDENT_NATIONAL\": \"18250012400017\", \"CORRESPONDANT\": \"M. LECOQ Philippe\", \"CONTACT\": \"Service du Patrimoine et des Achats\", \"ADRESSE\": \"38 avenue de l'Observatoire\", \"CP\": \"25000\", \"VILLE\": \"Besançon\", \"TEL\": \"(+33) 3-81-48-46-06\", \"FAX\": \"(+33) 3-81-48-46-70\", \"MEL\": \"servicedupatrimoine@crous-besancon.fr\", \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_aEtPpADA5W\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31441"
+      },
+      {
+        "idweb": "15-31468",
+        "id": "15_31468",
+        "contractfolderid": null,
+        "objet": "traitement de l'ensemble des bâtiments publics situés au coeur de l'ilot velten à Marseille (rectificatif)",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "13"
+        ],
+        "code_departement_prestation": "13",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": null,
+        "nomacheteur": "Ville de Marseille",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "RECTIFICATIF",
+        "descripteur_code": [
+          "17",
+          "61",
+          "62",
+          "87",
+          "264",
+          "360"
+        ],
+        "dc": [
+          "17",
+          "61",
+          "62",
+          "87",
+          "264",
+          "360"
+        ],
+        "descripteur_libelle": [
+          "Ascenseur",
+          "Chauffage (travaux)",
+          "Climatisation",
+          "Démolition",
+          "Peinture (travaux)",
+          "Ventilation"
+        ],
+        "type_marche": null,
+        "type_marche_facette": null,
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": [
+          "15-18821"
+        ],
+        "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"15-18821\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"A\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"121\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"191\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"028\", \"NUM_ANNONCE\": \"046376\", \"DATE_PUBLICATION\": \"2015-02-10\"}}]}",
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31468\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-18821\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"A\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"121\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"191\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"028\", \"NUM_ANNONCE\": \"046376\", \"DATE_PUBLICATION\": \"2015-02-10\"}}]}}, \"NOM_HTML\": \"15-31468.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"62\", \"LIBELLE\": \"Climatisation\"}, {\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"DEP_PUBLICATION\": \"13\", \"DEP_PRESTATION\": \"13\", \"RESUME_OBJET\": \"traitement de l'ensemble des bâtiments publics situés au coeur de l'ilot velten à Marseille (rectificatif)\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Marseille\", \"ADRESSE\": \"Hôtel de ville - Quai du port Hôtel de ville - quai du port\", \"CP\": \"13233\", \"VILLE\": \"Marseille cedex 20\", \"URL\": \"http://www.marseille.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.mairie-marseille.fr\", \"URL_INFORMATION\": \"http://marchespublics.mairie-marseille.fr\", \"URL_PARTICIPATION\": \"http://marchespublics.mairie-marseille.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"AOO_2014_50514_0006_Requalification de l'Ilôt Velten - ANRU - ZUS Centre Nord, Pôle Belsunce 16 Rue Bernard Dubois 13001 MARSEILLE\", \"OBJET_COMPLET\": \"AOO_2014_50514_0006_Requalification de l'Ilôt Velten. Anru. Zus centre nord. Pôle Belsunce. 16 ru Bernard Dubois. 13001 Marseille.Traitement de l'ensemble des bâtiments publics situés au coeur de l'ilot Velten : aménagement du centre social, restructuration du centre d'animation de quartier, création de nouveaux accès aux caves à jazz et à l'espace musique de la cité de la musique, traitement de l'espace extérieur en mail permettant un accès traversant.\", \"CPV\": [{\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45300000\"}, {\"PRINCIPAL\": \"45442100\"}, {\"PRINCIPAL\": \"45313100\"}, {\"PRINCIPAL\": \"45331000\"}]}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-18821\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"A\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"121\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"27\", \"NUM_ANNONCE\": \"191\", \"DATE_PUBLICATION\": \"2015-02-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"028\", \"NUM_ANNONCE\": \"046376\", \"DATE_PUBLICATION\": \"2015-02-10\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2015-04-08T16:00:00+01:00\", \"LIRE\": \"2015-04-13T16:00:00+01:00\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\"}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31468"
+      },
+      {
+        "idweb": "15-31553",
+        "id": "15_31553",
+        "contractfolderid": null,
+        "objet": "renforcement de chaussées à Mauguio",
+        "filename": "BOAMP-J-AO_2015_062003",
+        "famille": "JOUE",
+        "code_departement": [
+          "34"
+        ],
+        "code_departement_prestation": "34",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-02",
+        "datefindiffusion": "2015-04-22",
+        "datelimitereponse": "2015-04-22T15:00:00+00:00",
+        "nomacheteur": "Conseil Général de l'Hérault",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "366"
+        ],
+        "dc": [
+          "366"
+        ],
+        "descripteur_libelle": [
+          "Voirie et réseaux divers"
+        ],
+        "type_marche": [
+          "TRAVAUX"
+        ],
+        "type_marche_facette": [
+          "Travaux"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31553\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31553.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-02\", \"DATE_LIMITE_REPONSE\": \"2015-04-22T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-22\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}}, \"DEP_PUBLICATION\": \"34\", \"DEP_PRESTATION\": \"34\", \"RESUME_OBJET\": \"renforcement de chaussées à Mauguio\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil Général de l'Hérault\", \"CORRESPONDANT\": \"À l'attention de Monsieur le Président du Conseil général\", \"ADRESSE\": \"Service des Marchés - Hôtel du Département - 1000, rue d'Alco Cedex 4\", \"CP\": \"34087\", \"VILLE\": \"Montpellier\", \"TEL\": \"(+33) 4-67-67-67-67\", \"MEL\": \"marches-publics@cg34.fr\", \"URL\": \"http://www.herault.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Rd62 pr01+000 au pr02+400 y compris échangeur de Carnon - renforcement de chaussées - Mauguio\", \"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Quantités principales : - Rabotage : 40 000 mètres carrés - Enrobés : 10 500 tonnes\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Commune de\", \"CP\": \"34130\", \"VILLE\": \"Mauguio France\", \"CODE_NUTS\": \"FR813\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Marché unique ordinaire\"}, \"DUREE_DELAI\": {\"DUREE_JOURS\": \"56\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-22T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune garantie financière n'est exigée\", \"FINANCEMENT\": \"Articles 86 à 111 du Code des marchés publics français. Caractéristiques des prix : Prix unitaires. Modalités de variation des prix : fermes actualisables. Modalité de règlement des comptes : via un système de gestion informatique des marchés. Le délai global de paiement est de 30 jours. Modalités de financements : Marché financé par les ressources propres de la Collectivité\", \"FORME_JURIDIQUE\": \"Groupement conjoint avec mandataire solidaire. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois : - En qualité de candidats individuels et de membres d'un ou plusieurs groupements ; - En qualité de membres de plusieurs groupements\", \"AUTRES_CONDITIONS_PART_OUI\": \"Le marché débutera à compter de la date fixée par l'ordre de service. Les prestations comportent les conditions d'exécution suivantes : L'attributaire du marché ou lot concerné par une action d'insertion devra réaliser a minima le nombre d'heures d'insertion définies en annexe du CCAP.. Les éléments à caractère environnemental sont décrits dans les documents de la consultation\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Lettre de candidature et habilitation du mandataire par ses co-traitants (DC1 ou forme libre) ; Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ; Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP ; Documents relatifs aux pouvoirs de la personne habilitée à engager le candidat. Par exemple KBis, et le cas échéant, délégation de pouvoir précisant les montants délégués (si la personne signataire est différente de celle(s) désignée(s) au KBis)\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les travaux objet du contrat, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ; Liste des travaux exécutés au cours des trois dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ; Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de contrats de meme nature\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"13AMTP16\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les offres peuvent etre transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé . Dématérialisation des procédures : L'organisme acheteur préconise la transmission des plis par voie électronique. Il accepte cependant les plis adressés par d'autres moyens permettant d'en garantir la confidentialité et la date de réception. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Via la plate-forme de dématérialisation des marchés publics accessible par www.herault.fr ou CONSEIL GENERAL DE L'HERAULT\", \"CORRESPONDANT\": \"Benoît GUILLAIN\", \"ADRESSE\": \"Agence de Montpellier -Département des Routes 233, rue Guglielmo Marconi\", \"CP\": \"34000\", \"VILLE\": \"Montpellier\", \"TEL\": \"(+33) 4-99-54-92-20\", \"FAX\": \"(+33) 4-99-54-92-31\", \"MEL\": \"bguillain@cg34.fr\", \"URL\": \"http://www.herault.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Montpellier\", \"ADRESSE\": \"6 rue Pitot - CS 99002\", \"CP\": \"34063\", \"VILLE\": \"Montpellier Cedex\", \"TEL\": \"(+33) 4-67-54-81-00\", \"FAX\": \"(+33) 4-67-54-81-56\", \"MEL\": \"greffe.ta-montpellier@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Monsieur le Président du Comité Consultatif Interrégional de règlement amiable des litiges en matière de marchés publics\", \"ADRESSE\": \"Préfecture de Région - Secrétariat général pour les affaires interrégionales 30 rue Paul Peytral Cedex 20\", \"CP\": \"13282\", \"VILLE\": \"Marseille\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif de Montpellier\", \"ADRESSE\": \"6 rue Pitot - CS 99002\", \"CP\": \"34063\", \"VILLE\": \"Montpellier Cedex\", \"TEL\": \"(+33) 4-67-54-81-00\", \"FAX\": \"(+33) 4-67-54-81-56\", \"MEL\": \"greffe.ta-montpellier@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Via la plateforme de dématérialisation des marchés publics accessible par www.herault.fr ou :\", \"ADRESSE\": \"RICHTER COPIES (sur support papier et/ou CD-ROM) 77, avenue de Boirargues\", \"CP\": \"34000\", \"VILLE\": \"Montpellier\", \"TEL\": \"(+33) 4-67-65-26-21\", \"FAX\": \"(+33) 4-67-71-94-48\", \"MEL\": \"cg34@superplan.fr\", \"URL\": \"http://www.herault.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"CONSEIL GENERAL DE L'HERAULT\", \"ADRESSE\": \"Service des marchés - Batiment GH 5ème étage - Bureau 5019 - Ouvert au public du lundi au vendredi de 8h30 à 12h30 et de 13h30 à 17h30, l'horaire limite du dernier jour de remise des offres étant à 16h - Hôtel du Département 1000, rue d'Alco Cedex 4\", \"CP\": \"34087\", \"VILLE\": \"Montpellier\", \"URL\": \"http://www.herault.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31553"
+      },
+      {
+        "idweb": "15-28470",
+        "id": "15_28470",
+        "contractfolderid": null,
+        "objet": "arché d'exploitation et de maintenance des installations thermiques de la Ville de Sainte-Maxime.",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "83"
+        ],
+        "code_departement_prestation": "83",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": "2015-04-13T16:00:00+00:00",
+        "nomacheteur": "Commune de Sainte-Maxime",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "59"
+        ],
+        "dc": [
+          "59"
+        ],
+        "descripteur_libelle": [
+          "Chauffage (exploitation)"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-28470\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-28470.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-13T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"40\", \"LIBELLE\": \"Electricité, gaz et chaleur\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"59\", \"LIBELLE\": \"Chauffage (exploitation)\"}}, \"DEP_PUBLICATION\": \"83\", \"DEP_PRESTATION\": \"83\", \"RESUME_OBJET\": \"arché d'exploitation et de maintenance des installations thermiques de la Ville de Sainte-Maxime.\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de Sainte-Maxime\", \"CORRESPONDANT\": \"Monsieur Le Maire de Sainte-Maxime\", \"ADRESSE\": \"Boulevard des Mimosas - BP154\", \"CP\": \"83120\", \"VILLE\": \"Sainte-Maxime\", \"TEL\": \"(+33) -04-94-79-42-70\", \"FAX\": \"(+33) -04-94-79-42-60\", \"MEL\": \"commande-publique@ste-maxime.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"collectivité territoriale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché d'exploitation et de maintenance des installations thermiques de la Ville de Sainte-Maxime\", \"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet des prestations de type PF (Prestation et Forfait) et CP (Combustible et Prestation) relatives aux installations thermiques de la Commune.\", \"CPV\": {\"PRINCIPAL\": \"50700000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Sainte-maxime\", \"CP\": \"83120\", \"VILLE\": \"Sainte-maxime\", \"CODE_NUTS\": \"FR825\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Les prestations à assurer par le TITULAIRE sont les suivantes : Prestations de type P1 : Fourniture d'énergie - Fourniture en fioul et en propane pour les sites concernés. La liste des sites est présentée en annexe 2 du DCE et le type d'énergie utilisé par site est présenté en annexe 3. Prestations de type P2 : Conduite et entretien des installations avec garantie de résultat, y compris les dépannages et réparations d'urgence avec astreinte 7j/7 pendant les heures ouvrées du secteur, avec présence sur site d'un équivalent temps plein. Prestations de type P3 : Gros Entretien et renouvellement (GER) sur la base du programme présenté en annexe 6 et complété par les propositions de remplacement du candidat et avec garantie totale. Les candidats doivent répondre à l'offre de base pour pouvoir proposer des variantes. Ces variantes seront autorisées dans la mesure où elles ne remettent pas en cause les grands principes du marché (durée du marché, périmètre, obligations de résultat...). Option : Mise en place de compteurs fioul sur les équipements de production de chaleur indiqués en l'annexe 2 du DCE est possible. La durée du marché est fixée à 5 ans fermes à compter du 1er juin 2015 ou de sa date de notification, si celle-ci est postérieure.\", \"RECONDUCTIONS\": {\"NON\": \"\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Coût global et montants des prestations (Coût global de la prestation : P1, P2, P3, coefficient k, main d'oeuvre 100%)\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre (Méthodologie de maintenance : gamme, traitement légionellose 25%; Qualité technique des équipements proposés 25%; Innovation et évolutivité des solutions proposées 20%; Planning prévisionnel P3 30%)\"}, {\"@POIDS\": \"20\", \"#text\": \"Moyens techniques & humains (Moyens humains et qualification : effectif et CV dont le responsable affecté à la mission 30%; Organisation de l'astreinte : mode d'information, personnel d'astreinte, qualification 30%; Garanties techniques et humaines : garantie de résultats, encadrement, étude, performances 40%)\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-13T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"150\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Le prestataire doit fournir la garantie à première demande prévue à l'article 89 du Code des Marchés Publics.\", \"FINANCEMENT\": \"Le financement se fait sur fonds propres. Le paiement des sommes dues est effectué par virement administratif dans un délai de 30 jours à compter de la réception de la demande de paiement.\", \"FORME_JURIDIQUE\": \"En cas de groupement, la forme souhaitée par le pouvoir adjudicateur est un groupement conjoint avec mandataire solidaire.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"1/Imprimé Cerfa de lettre de candidature Dc1, dûment complété et signé; 2/Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire; 3/Attestations d'assurance; 4/Documents relatifs au pouvoir de la personne habilitée pour engager l'entreprise.\", \"CAP_ECO\": \"5/Imprimé Cerfa de déclaration du candidat Dc2 dûment complété et signé; 6/Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les services objet du contrat, réalisés au cours des 3 derniers exercices disponibles; 7/Liste des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique; 8/Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.\", \"CAP_TECH\": \"9/Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de contrats de même nature; 10/Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise.\", \"PRESTATION_RESERVEE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"15*004*00\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le dossier de consultation des entreprises peut être obtenu gratuitement et ce jusqu'à la date limite de réception des offres :1. Sous format papier auprès du service de la commande publique (adresse ci-dessus) après demande écrite par courrier, télécopie ou courriel ou retrait sur place. 2. Sous format électronique à l'adresse suivante : www.marches-securises.fr. La visite des différents sites est fortement recommandée mais non obligatoire. Elle sera prévue le 10 mars de 8h à 12h et de 14h à 17h. S'adresser à la Direction des Services Technique de La Ville pour en connaître les détails.Plis à remettre par voie papier ou électronique. Les candidats qui remettent leur offre en format papier doivent obligatoirement transmettre une copie de cette même offre sur support informatique (CD ou clé USB). Monnaie : EUROS.. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Toulon\", \"ADRESSE\": \"5 rue Racine BP 40510\", \"CP\": \"83041\", \"VILLE\": \"Toulon cedex 9\", \"TEL\": \"(+33) 4-94-42-79-30\", \"FAX\": \"(+33) 4-94-42-79-89\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"CCRIL\", \"ADRESSE\": \"Préfecture de Région-SGARBoulevard PEYTRAL\", \"CP\": \"13282\", \"VILLE\": \"Marseille cedex\", \"TEL\": \"(+33) 4-91-15-63-74\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Toulon\", \"ADRESSE\": \"5 rue Racine BP 40510\", \"CP\": \"83041\", \"VILLE\": \"Toulon cedex 9\", \"TEL\": \"(+33) 4-94-42-79-30\", \"FAX\": \"(+33) 4-94-42-79-89\", \"MEL\": \"greffe.ta-toulon@juradm.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-28470"
+      },
+      {
+        "idweb": "15-28783",
+        "id": "15_28783",
+        "contractfolderid": null,
+        "objet": "fourniture de café avec mise à disposition des machines, pots et pichets à Saint Nazaire",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "44"
+        ],
+        "code_departement_prestation": "44",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": "2015-04-13T15:00:00+00:00",
+        "nomacheteur": "Centre Hospitalier de Saint-Nazaire",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": [
+          "environnementaux"
+        ],
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "88"
+        ],
+        "dc": [
+          "88"
+        ],
+        "descripteur_libelle": [
+          "Denrées alimentaires"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-28783\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-28783.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-13T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"15\", \"LIBELLE\": \"Produits des industries alimentaires\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"fourniture de café avec mise à disposition des machines, pots et pichets à Saint Nazaire\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Centre Hospitalier de Saint-Nazaire\", \"CORRESPONDANT\": \"Caroline Dousset\", \"ADRESSE\": \"11 boulevard Georges Charpak\", \"CP\": \"44600\", \"VILLE\": \"Saint nazaire\", \"URL_PROFIL_ACHETEUR\": \"http://www.klekoon.com\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de café avec mise à disposition des machines, pots et pichets\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de café avec mise à disposition des machines, pots et pichets\", \"CPV\": {\"PRINCIPAL\": \"15861000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre Hospitalier - Magasin Hôtelier - Route de préhembert - Accès Nord\", \"CP\": \"44600\", \"VILLE\": \"Saint Nazaire\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"108000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"270000\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"2\"}}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2015-06-15\", \"DATE_FIN\": \"2017-06-14\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Qualité\"}, {\"@POIDS\": \"45\", \"#text\": \"Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-13T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ;- Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP ;\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures objet du contrat, réalisés au cours des trois derniers exercices disponibles ;- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels ;\", \"CAP_TECH\": \"- Liste des principales fournitures effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ;\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"15008\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Centre Hospitalier de Saint Nazaire\", \"ADRESSE\": \"Direction des Achats et de la Logistique11 bd Georges Charpak\", \"CP\": \"44600\", \"VILLE\": \"Saint Nazaire\", \"TEL\": \"(+33) 2-72-27-86-45\", \"FAX\": \"(+33) 2-72-27-86-41\", \"MEL\": \"s.soulas@ch-saintnazaire.fr\", \"URL\": \"http://www.klekoon.com\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-28783"
+      },
+      {
+        "idweb": "15-29327",
+        "id": "15_29327",
+        "contractfolderid": null,
+        "objet": "Fourniture pour la conception et la préparation des repas et goûters présentées sous forme de denrées crues destinées à être transformées et la livraison de repas en liaison froide à Toulon",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "83"
+        ],
+        "code_departement_prestation": "83",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-15",
+        "datelimitereponse": "2015-04-15T11:00:00+00:00",
+        "nomacheteur": "Ville de Toulon",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "304"
+        ],
+        "dc": [
+          "304"
+        ],
+        "descripteur_libelle": [
+          "Repas"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-29327\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-29327.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-15T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-15\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"55\", \"LIBELLE\": \"Service d'hôtellerie et de restauration\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"304\", \"LIBELLE\": \"Repas\"}}, \"DEP_PUBLICATION\": \"83\", \"DEP_PRESTATION\": \"83\", \"RESUME_OBJET\": \"Fourniture pour la conception et la préparation des repas et goûters présentées sous forme de denrées crues destinées à être transformées et la livraison de repas en liaison froide à Toulon\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Toulon\", \"CORRESPONDANT\": \"M. le Sénateur-Maire de Toulon - Ancien Ministre\", \"CONTACT\": \"Direction de la Commande Publique\", \"ADRESSE\": \"Hôtel de Ville avenue de la République C.S. 71407\", \"CP\": \"83056\", \"VILLE\": \"Toulon\", \"TEL\": \"(+33) 4-94-36-30-92\", \"FAX\": \"(+33) 4-94-36-31-22\", \"MEL\": \"marchespublics@mairie-toulon.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Collectivité territoriale\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations de fourniture pour la conception et la préparation des repas et goûters présentées sous forme de denrées crues destinées à être transformées et la livraison de repas en liaison froide, assorties de missions d'assistance technique, de conseil et de formation, pour les enfants de moins de 4 ans accueillis dans les établissements d'accueil des jeunes enfants (EAJE) de la Ville de Toulon (83, Var)\", \"TYPE_MARCHE\": {\"SERVICE\": \"17\"}, \"OBJET_COMPLET\": \"Le marché a pour objet des prestations de services de fournitures pour la conception et la préparation des repas et goûters présentées sous forme de denrées crues destinées à être transformées (Tranche Ferme) et la livraison de repas en liaison froide (Tranches Conditionnelles), assorties de missions d'assistance technique, de conseil et de formation, pour les enfants de moins de 4 ans dans les EAJE de la Ville de Toulon, durant l'année à l'exclusion de :- Quatre semaines pleines au mois d'août suivies de 2 jours de préparation de la rentrée ;- Une semaine entre Noël et Jour de l'An.Sont exclus de la présente consultation les laits infantiles, petits pots, farines, 1er et 2ème âges, destinés à être consommés par les enfants âgés de moins de 6 mois ainsi que les goûters pour les enfants jusqu'à 1 an.Les listes des sites d'exécution et de livraison concernés par les prestations et les fournitures objet du marché sont annexées au présent CCAP. Ces listes sont évolutives et susceptibles de modifications.\", \"CPV\": {\"PRINCIPAL\": \"55523100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"territoire communal de Toulon (83, Var). Les lieux de livraison et d'exécution des prestations sont décrits à l'annexe 1 du CCAP.\", \"CODE_NUTS\": \"FR825\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"1040000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"2640000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Le marché fait l'objet d'une tranche ferme et de 4 tranches conditionnelles. Pour chaque tranche considérée, les prestations sont à bons de commande, conformément aux dispositions de l'article 77 du Code des Marchés Publics. Elles seront livrées et exécutées selon les besoins après émission de bons de commande successifs.A titre indicatif, sur une base d'environ 222 jours ouvrés par an, on peut estimer,- pour la tranche ferme : à 110 334 le nombre annuel de repas et à 119 212 le nombre annuel de goûters et à 2 000 le nombre annuel de collations festives- pour la tranche conditionnelle 1 : à 4 662 le nombre annuel de repas en liaison froide - pour la tranche conditionnelle 2 : à 6 882 le nombre annuel de repas en liaison froide - pour la tranche conditionnelle 3 : à 4 662 le nombre annuel de repas en liaison froide - pour la tranche conditionnelle 4 : à 6 882 le nombre annuel de repas en liaison froide Ainsi, les masses minima et maxima sont fixés par tranche comme suit : TRANCHE FERME :Montant annuel minimum : 260 000 euro TTCMontant annuel maximum : 520 000 euro TTCTRANCHE CONDITIONNELLE 1 :Montant annuel minimum : 7.500 euro TTCMontant annuel maximum : 30.000 euro TTCTRANCHE CONDITIONNELLE 2 :Montant annuel minimum : 10.000 euro TTCMontant annuel maximum : 40.000 euro TTCTRANCHE CONDITIONNELLE 3 :Montant annuel minimum : 7.500 euro TTCMontant annuel maximum : 30.000 euro TTCTRANCHE CONDITIONNELLE 4 :Montant annuel minimum : 10.000 euro TTCMontant annuel maximum : 40.000 euro TTC\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Voir article II 2 3 ci dessous.En ce qui concerne le détail des tranches ferme et conditionnelles, ainsi que leur modalité d'affermissement, veuillez vous reporter à l'article VI.3) du présent avis.\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"3\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"premier semestre 2019.\"}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-15T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"* Avance : Une avance est prévue dans le cadre du marché, sur la base des dispositions de l'article 87 du code des marchés publics. Le versement de l'avance est conditionné par la constitution d'une garantie à première demande portant sur un engagement du montant total de l'avance consentie. Les deux parties peuvent s'accorder pour substituer à cette garantie une caution personnelle et solidaire.* Les autres garanties sont indiquées au cahier des charges.\", \"FINANCEMENT\": \"Les dépenses sont imputées sur le budget de la commune à la section de fonctionnement (ressources propres de la commune). Le titulaire sera réglé par virement au moyen d'un mandat administratif dans le délai fixé à l'article 98 du Code des marchés publics. Les prestations de services et fournitures seront rémunérées par application des prix appliqués aux quantités réellement exécutées et livrées, tels que figurant au Bordereau des Prix Unitaires et Forfaitaires contractuel Tranche ferme et au Bordereau des Prix Unitaires et Forfaitaires contractuel pour chaque tranche conditionnelle en cas d'affermissement de la tranche considérée.Les prix sont révisables en cas de reconduction conformément aux dispositions de l'article 3.2.2 du Cahier des Clauses Administratives Particulières.\", \"FORME_JURIDIQUE\": \"Le marché pourra être attribué à une seule entreprise ou à un groupement d'entreprises conjoint ou solidaire. En vertu de l'article 51 II du code des marchés publics, en cas de groupement conjoint, le mandataire est solidaire de l'ensemble des membres du groupement.\", \"AUTRES_CONDITIONS_PART_OUI\": \"Désireuse d'affirmer sa politique de développement durable et de garantir la qualité des denrées, la collectivité attend du prestataire qu'il assure ses approvisionnements en intégrant les principes généraux suivants :- Les repas sont majoritairement élaborés à partir de produits frais et variés.L'utilisation de produits frais doit être privilégiée d'une part par rapport à l'utilisation de produits issus de l'industrie agroalimentaire, qui ne pourront être acceptés par la collectivité qu'après fourniture des fiches techniques des produits, et d'autre part par rapport à l'utilisation de produits surgelés.Désireuse d'affirmer sa politique de développement durable, la collectivité attend du prestataire qu'il l'accompagne en intégrant dans les méthodes de travail en production, les principes généraux suivants :- la lutte contre le gaspillage des convives par des démarches de sensibilisation ;- la gestion responsable des déchets d'emballage (emballages en matériaux recyclables, circuit de collecte, de tri et de valorisation des déchets) ;- la fourniture de produits lessiviels respectueux de l'environnement ;- la sensibilisation du personnel de cuisine à l'économie des énergies (eau et électricité notamment). Se reporter aux articles 3.1, 3.2, 3.3 du CCTP.\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Conformément aux stipulations du Règlement de la consultation, document(s) relatif(s) au(x) pouvoir(s) de la personne ou des personne(s) habilitée(s) pour engager le candidat ; DC1 ou équivalent (lettre de candidature); DC2 ou équivalent (en application des articles 43 et 44 du code des marchés publics); En cas de redressement judiciaire (article L620-1 du code du commerce): copie du/des jugements prononcés ou document équivalent pour les procédures régies par un droit étranger.\", \"CAP_ECO\": \"Le chiffre d'affaires global réalisé au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"Les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement, . L'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature, . La présentation d'une liste des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique. Les entreprises de création récente communiqueront les éléments globaux de capacités financières, techniques et professionnelles depuis leur création.La justification aux capacités professionnelles, techniques et financières peut être apportée par tout moyen de preuve équivalent ou tout document propre au candidat considéré comme équivalent par le pouvoir adjudicateur.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"AOO Restauration PE 2015\", \"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2015-04-15\", \"DOCUMENT_PAYANT_NON\": \"\", \"PERS_OUVERTURE_OFFRES_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Tranche ferme et trnaches conditionnelles:Pour ce qui concerne la tranche ferme, les prestations concernent :- D'une part, les prestations de fourniture pour la conception et la préparation de repas présentés sous forme de denrées crues destinées à être transformées, avec missions d'assistance technique, de conseil et de formation, dans les cuisines de 12 établissements maximum d'accueil des jeunes enfants de la Ville de Toulon.- D'autre part, les prestations de fournitures (eau de source et denrées pour ateliers culinaires), de goûters et collations festives pour les 18 établissements d'accueil des jeunes enfants de la Ville de Toulon.Pour ce qui concerne chaque tranche conditionnelle, les prestations concernent :Les prestations de fourniture et de préparation de repas en liaison froide, assorties de missions d'assistance technique, de conseil et de formation dans certaines cuisines des établissements d'accueil des jeunes enfants de la Ville de Toulon.-La Halte Garderie Envol : tranche conditionnelle no1 : Création de cuisine en liaison froide.-Le Multi accueil Les Doux Minots : tranche conditionnelle no2: Substitution du mode de restauration traditionnelle en mode en liaison froide.-Le Multi accueil de la Porte d'Italie : tranche conditionnelle no3 : Substitution du mode de restauration traditionnelle en mode enliaison froide- La Halte Garderie la Mer : tranche conditionnelle no4: Création de cuisine en liaison froide.Le pouvoir adjudicateur se réserve le droit d'affermir ou pas chaque tranche conditionnelle selon les modalités définies ci-après. Chaque tranche conditionnelle pourra être affermie indépendamment les unes des autres dans un ordre non préétabli. La décision d'affermir chaque tranche conditionnelle est prise par le pouvoir adjudicateur et notifiée à l'entreprise.Cette décision interviendra au minimum 4 semaines avant la date d'exécution de la prestation, et au maximum durant la dernière année d'exécution du marché.-La Halte Garderie Envol : tranche conditionnelle no1 : Date prévisionnelle d'affermissement : septembre 2016-Le Multi accueil Les Doux Minots : tranche conditionnelle no2:Date prévisionnelle d'affermissement : septembre 2016-Le Multi accueil de la Porte d'Italie : tranche conditionnelle no3: Date prévisionnelle d'affermissement : septembre 2017-La Halte Garderie la Mer : tranche conditionnelle no4:Date prévisionnelle d'affermissement : septembre 2017Le marché ne prévoit ni d'indemnité de dédit ni d'indemnité d'attente.Reprise du personnel :Dans les cas prévus par l'article L.1224-1 du Code du travail et par l'avenant no3 du 26 février 1986 relatif au changement de prestataires de services relatif à la convention collective nationale du personnel des entreprises de restauration de collectivités du 20 juin 1983, le prestataire assurera la reprise du personnel.La liste du personnel concernée est jointe en annexe 11 du CCAP et comprend notamment : le nombre de salariés à reprendre, le poste occupé, le statut, le niveau Convention collective nationale, l'ancienneté, le type de contrat, la durée mensuelle de travail, le salaire de base brut, la prime qualité le cas échéant, la prime d'ancienneté, la prime de fin d'année, le nombre de congés payés annuels ouvrables.Accord-cadre au sens du droit communautaire (cf. rubrique II 1 4). Marché à tranches et à bons de commande de l'article 77 du CMP conclu avec un seul opérateur économique sans négociation ni remise en concurrence.Estimation de la rubrique II 1 4) annoncée en euros TTC sur la durée maximale totale envisagée du marché reconductions comprises. Le montant minimum correspond au montant de la masse minimum de la tranche ferme. Le montant maximum correspond à la somme des masses maxima de toutes les tranches ferme et conditionnelles.Le marché prévoit une période de préparation prenant effet à compter du jour de sa notification. La date effective de début des prestations est fixée au 31 août 2015.A l'issue de cette période il pourra faire l'objet de trois reconductions par période de 12 mois chacune, par décision expresse de la Collectivité, sans que sa durée totale ne puisse excéder 48 mois. Conformément à l'article 16 du code des Marchés Publics, le titulaire ne pourra refuser la reconduction.Date prévisionnelle de notification du marché : troisième trimestre 2015.Les critères pondérés de jugement des offres sont (se reporter à l'article 9.2 du Règlement de la Consultation) : - le critère prix, noté sur 12 points ;- le critère de la valeur technique noté sur 08 points.La collectivité attire l'attention des candidats sur le fait que la présente consultation est lancée dans le respect des dispositions de l'article 57 II 4° du Code des Marchés publics : réduction des délais de publicité de 7 jours, l'avis d'appel public à la concurrence faisant l'objet d'un envoi par voie électronique ; en application de l'article 57 II 5°, réduction des délais de publicité de 5 jours, les documents étant accessibles par voie électronique à compter de la publication de l'avis.Les plis sont ouverts dans les conditions prévues aux articles 57 à 59 du code des marchés publics. Les séances ne sont pas publiques. Les dates et lieux ne sont pas fixés.Les exigences de la collectivité concernant les modalités de transmission des candidatures et des offres sont prévues au règlement de la consultation (environnement technique nécessaire au bon fonctionnement du service, modalités d'obtention des documents, précisions quant aux modalités particulières de transmission, rappel de la procédure dématérialisée de présentation et de remise des offres, utilisation des anti-virus).. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Toulon\", \"ADRESSE\": \"C.S. 40 510\", \"CP\": \"83041\", \"VILLE\": \"Toulon Cedex 9\", \"TEL\": \"(+33) 4-94-42-79-30\", \"FAX\": \"(+33) 4-94-42-79-89\", \"MEL\": \"greffe.ta-toulon@juradm.fr\", \"URL\": \"http://toulon.tribunal-administratif.fr/ta-caa\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interdépartemental de règlement amiable des litiges relatifs aux marchés publics de MARSEILLE, secrétariat Général pour les Affaires Générales CCIRAL\", \"ADRESSE\": \"Bd Paul Peytral\", \"CP\": \"13282\", \"VILLE\": \"Marseille Cedex 20\", \"TEL\": \"(+33) 4-91-15-63-74\", \"FAX\": \"(+33) 4-91-15-61-90\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de TOULON ou Direction de la Commande Publique de la ville de TOULON (cf. coordonnées ci-dessus)\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-29327"
+      },
+      {
+        "idweb": "15-30328",
+        "id": "15_30328",
+        "contractfolderid": null,
+        "objet": "dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "974"
+        ],
+        "code_departement_prestation": "974",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-05-04",
+        "datelimitereponse": "2015-05-04T11:00:00+00:00",
+        "nomacheteur": "COMMUNE DE SAINT-PAUL",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "89"
+        ],
+        "dc": [
+          "89"
+        ],
+        "descripteur_libelle": [
+          "Dératisation, désinsectisation"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-30328\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-30328.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-05-04T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-05-04\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"89\", \"LIBELLE\": \"Dératisation, désinsectisation\"}}, \"DEP_PUBLICATION\": \"974\", \"DEP_PRESTATION\": \"974\", \"RESUME_OBJET\": \"dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE SAINT-PAUL\", \"CONTACT\": \"Service Commande Publique\", \"ADRESSE\": \"22 rue du SémaphoreCS 51015\", \"CP\": \"97864\", \"VILLE\": \"Saint-paul\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-45-91-50\", \"FAX\": \"(+33) 2-62-45-91-87\", \"MEL\": \"marches.publics@mairie-saintpaul.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.mairie-saintpaul.re:8080/SIS-ePP-prod-interface\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-paul.\", \"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Dans chacun des 3 lots géographiques : Traitement préventif dans les écoles : Opérations systémiques bisannuelles de dératisation/ désinfection/ désinsectisation des écoles et leurs annexes .+ Traitement correctif: Opérations ponctuelles de dératisation, désinfection et/ou désinsectisation des bâtiments communaux y compris les écoles de Saint-Paul.\", \"CPV\": [{\"PRINCIPAL\": \"85142300\"}, {\"PRINCIPAL\": \"90921000\"}, {\"PRINCIPAL\": \"90923000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Mairie de Saint-paul\", \"CP\": \"97864\", \"VILLE\": \"Saint-paul\", \"CODE_NUTS\": \"FR94\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}, \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le contrat initial pourra faire l'objet d'une modification par avenant en application de l'article 20 du CMP.Des marchés complémentaires dont les prestations ne figurent pas dans le marché initial, ou des marchés ayant pour objet la réalisation de prestations similaires, pourront être passés sans mise en concurrence et sans publicité pour autant qu'ils répondent aux conditions mentionnés dans l'article 35 II du CMP.\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"LOT 1 : Zone nord (Quartiers du Centre ville à Bois de nèfles)\", \"DESCRIPTION\": \"Traitement préventif dans les écoles : opération systémique bisannuelle de dératisation/ désinfection/désinsectisation des 17 écoles et 1 annexe du secteur géographique dit Zone 1 (cf. liste en annexe au CCP pour le Lot 1). + Traitement correctif : Opérations ponctuelles de dératisation, désinfection et/ou désinsectisation dans les écoles et bâtiments de la ZONE 1 de la commune de Saint-Paul.\", \"CPV\": [{\"PRINCIPAL\": \"85142300\"}, {\"PRINCIPAL\": \"90921000\"}, {\"PRINCIPAL\": \"90923000\"}], \"QUANTITE\": \"montant minimum annuel: 5000 euros HT, sans montant maximum\", \"DUREE_MOIS\": \"48\", \"INFO_COMPL\": \"Les délais d'exécution des prestations proposés par le candidat et sur lesquels s'engage le prestataire sont précisés à l'acte d'engagement pour chacun des lots conformément aux dispositions du CCP.- pour les délais de traitement préventif (deux campagnes annuelles dans les écoles obligatoirement pendant les vacances scolaires) : délai d'intervention plafonné à 15 jours par campagne à compter de la réception du bon de commande.- pour les délais de traitement correctif : délai d'intervention plafonné à 48 heures (à compter de la réception de la télécopie du service superstructures de la Ville confirmé par bon de commande)\"}, {\"NUM\": \"2\", \"INTITULE\": \"ZONE CENTRALE DE SAINT-PAUL (Quartiers de Plateau Caillou à Mafate)\", \"DESCRIPTION\": \"Traitement préventif dans les écoles Opération systémique bisannuelle de dératisation/ désinfection/désinsectisation des 21 écoles et 2 annexes du secteur géographique dit Zone 2 (cf. liste en annexe au CCP pour le Lot 2).+ Traitement correctif : opérations ponctuelles de dératisation, désinfection et/ou désinsectisation dans les écoles et bâtiments de la ZONE 2 de la commune de Saint-Paul.\", \"CPV\": [{\"PRINCIPAL\": \"85142300\"}, {\"PRINCIPAL\": \"90921000\"}, {\"PRINCIPAL\": \"90923000\"}], \"QUANTITE\": \"montant minimum annuel: 5000 euros HT, sans montant maximum\", \"DUREE_MOIS\": \"48\", \"INFO_COMPL\": \"Les délais d'exécution des prestations proposés par le candidat et sur lesquels s'engage le prestataire sont précisés à l'acte d'engagement pour chacun des lots conformément aux dispositions du présent CCP.- pour les délais de traitement préventif (deux campagnes annuelles dans les écoles obligatoirement pendant les vacances scolaires) : délai d'intervention plafonné à 15 jours par campagne à compter de la réception du bon de commande.- pour les délais de traitement correctif : délai d'intervention plafonné à 48 heures (à compter de la réception de la télécopie du service superstructures de la Ville confirmé par bon de commande)\"}, {\"NUM\": \"3\", \"INTITULE\": \"-LOT 3 : ZONE SUD DE SAINT-PAUL (Quartiers de Boucan Canot à Ravine Daniel)\", \"DESCRIPTION\": \"Traitement préventif dans les écoles Opération systémique bisannuelle de dératisation/ désinfection/désinsectisation des 26 écoles et 1 annexe du secteur géographique dit Zone 3 (cf. liste en annexe au CCP pou le Lot 3). + Traitement correctif Opérations ponctuelles de dératisation, désinfection et/ou désinsectisation dans les écoles et bâtiments de la ZONE 3 de la commune de Saint-Paul.\", \"CPV\": [{\"PRINCIPAL\": \"85142300\"}, {\"PRINCIPAL\": \"90921000\"}, {\"PRINCIPAL\": \"90923000\"}], \"QUANTITE\": \"montant minimum annuel: 5000 euros HT et sans maximum annuel\", \"DUREE_MOIS\": \"48\", \"INFO_COMPL\": \"Les délais d'exécution des prestations proposés par le candidat et sur lesquels s'engage le prestataire sont précisés à l'acte d'engagement pour chacun des lots conformément aux dispositions du CCP.- pour les délais de traitement préventif (deux campagnes annuelles dans les écoles obligatoirement pendant les vacances scolaires) : délai d'intervention plafonné à 15 jours par campagne à compter de la réception du bon de commande.- pour les délais de traitement correctif : délai d'intervention plafonné à 48 heures (à compter de la réception de la télécopie du service superstructures de la Ville confirmé par bon de commande)\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"prix\"}, {\"@POIDS\": \"40\", \"#text\": \"valeur technique\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-05-04T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"180\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sauf si le prestataire y renonce dans l'AE du lot concerné, celui-ci pourra bénéficier d'une avance de 5% du montant du bon de commande concerné si les conditions de l'article 87 du Code des Marchés Publics sont cumulativement réunies.Pour bénéficier de cette avance, le prestataire devra présenter une garantie à première demande ou une caution solidaire.\", \"FINANCEMENT\": \"Le mode de règlement sera le virement avec un délai de paiement de 30 jours à compter de la date de réception de la facturation à la Direction de la Comptabilité et du Budget. Les prestations sont financées sur le budget général de la Commune sur ses fonds propres\", \"FORME_JURIDIQUE\": \"Le marché sera attribué pour chaque lot soit à une entreprise unique, soit à un groupement.Le candidat est autorisé à se porter candidat sous forme de groupement solidaire ou de groupement conjoint avec mandataire solidaire.Si le candidat se présente sous la forme d'un groupement, la Commune de Saint-Paul pourra après l'attribution lui imposer la forme solidaire si la transformation est nécessaire à la bonne exécution du marché (art. 51 VIII du Code des Marchés Publics).Il est interdit aux candidats de présenter plusieurs offres en agissant en qualité de mandataires de plusieurs groupements.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"A l'appui de leur candidature, les candidats produiront obligatoirement les pièces prévues aux articles 43, 44 et 46 du CMP, ainsi que celles mentionnées à l'article 45 pour justifier de leurs niveaux minimaux de capacités professionnelles, techniques et financières :1)Situation juridique - références requises:1- Lettre de candidature ou DC1 signée EN ORIGINAL par la personne habilitée à engager le candidat ;2- la copie du ou des jugements prononcée à cet effet si l'entreprise est en redressement judiciaire (article 44-1 du CMP);3- une déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP (article 44-2 du CMP) ;4- les documents relatifs aux pouvoirs des personnes habilitées à engager le candidat (article 45-I du CMP) ; (extrait K-Bis de moins de 6 mois, lettre donnant pouvoir ....)5- le cas échéant des renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L 5212-1 à L5212-4 du Code du travail (article 29 de la loi no2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées - article 45-IV du CMP) ;6- les documents ou attestations figurant à l'article D.8222-5 ou D.8222-7 et D.8222-8 du Code du Travail (article 46-I, 1° du CMP) ; ces pièces sont à produire par le titulaire tous les six mois jusqu'à la fin de l'exécution du marché ;7- les certificats et les déclarations sur l'honneur en matière d'obligations fiscales et sociales (article 46-I, 2° du CMP) ;Il est à noter que les deux dernières pièces prévues à l'article 46 du CMP seront demandées au candidat auquel il est envisagé d'attribuer le marché.\", \"CAP_ECO\": \"8- déclaration concernant le chiffre d'affaires global annuel hors taxes sur les trois (3) dernières années ; L'analyse du chiffre d'affaires minimum des entreprises ayant moins de 3 ans d'existence portera sur la moyenne des exercices disponibles9-déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels à fournir au plus tard à la date de notification du marché ;\", \"CAP_TECH\": \"- déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ; -présentation d'une liste des prestations exécutées au cours des trois dernières années, appuyée d'attestations de bonne exécution pour les prestations les plus importantes. Ces attestations indiquent le montant, l'époque, le destinataire public ou privé et le lieu d'exécution des prestations - Les références de l'entreprise, la liste des niveaux de qualification, d'habilitation et de certification pour chacun des techniciens intervenants ainsi que la liste des stages suivis au cours des deux dernières années.Pour les certificats de qualifications professionnelles : la preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de marchés attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat;- déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature ;\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"L'heure limite de réception des offres (midi) s'entend en heure locale de La Réunion.Conformément à l'article 56 du code des Marchés Publics, pour retirer le DCE et déposer leur offre, les candidats ont le choix entre : - soit le support papier à l'adresse suivante : Commune de Saint-PaulDivision de la Commande Publique2, rue Sémaphore - 2ème étageMAIRIE CS 51 01597 864 Saint-Paul cedex- soit procéder de façon dématérialisée : Pour le téléchargement du DCE (formats bureautiques courants) et le dépôt des offres sur le site http://www.mairie-saintpaul.fr (rubrique marchés publics) disponible 24/24 h et 7/7jours, selon modalités figurant au règlement de la consultation, ou sur le site http://www.marchespublics.mairie-saintpaul.re:8080/SIS-ePP-prod-interface Le téléchargement est conditionné par une inscription préalable de l'entreprise sur le site. Un guide utilisateur est mis à disposition des candidats sur le site. Des aléas techniques peuvent rendre ce site momentanément indisponible En cas de difficulté technique sur le site, contacter : Commune de Saint Paul - direction TIC- tel : 02 62 45 91 20 Tout autre procédé de demande de DCE ou de transmission des offres (par courriel ou sur support physique informatique) est interdit, sauf en cas de copie de sauvegarde. -Précisions sur les candidatures: concernant les certificats et les déclarations sur l'honneur en matière d'obligations fiscales et sociales (article 46-I, 2° du CMP) : le candidat établi dans un Etat autre que la France produit un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays.Pour justifier de ses capacités professionnelles, techniques et financières, le candidat, même s'il s'agit d'un groupement, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existant entre ces opérateurs et lui. Dans ce cas, il justifie des capacités de ce ou ces opérateurs économiques et apporte la preuve qu'il en disposera pour l'exécution du marché. Le candidat produit les mêmes documents concernant cet opérateur économique que ceux exigés par le pouvoir adjudicateur. En outre, pour justifier qu'il dispose des capacités de cet opérateur économique pour l'exécution du marché, le candidat produit un engagement écrit de l'opérateur.Conformément à l'article 46 du code des marchés publics, l'attention du candidat est attirée sur le fait que le marché ne pourra lui être attribué que sous réserve que celui-ci produise au pouvoir adjudicateur, dans un délai maximal de 10 jours, les certificats fiscaux et sociaux délivrés par les administrations et organismes compétents et les pièces prévues à l'article D 8222-5 ou D 8222-7et D 8222-8 du code du travail.Pour les entreprises créées après le 1er janvier de l'année de la date de lancement de la consultation, le récépissé du dépôt de déclaration auprès du Centre de formalités des entreprises sera substitué aux certificats;Il est rappelé que l'absence de signature EN ORIGINAL de la lettre de candidature ou du DC1 par la personne habilitée à représenter le candidat pourra entraîner le rejet de la candidature.Pour chaque sous-traitant éventuel présenté dans l'offre, le candidat devra joindre, en sus de l'annexe à l'acte d'engagement relative à la sous-traitance complétée et signée en original par les parties (ou DC4 actualisé téléchargeable sur le site http://www.economie.gouv.fr/daj/formulaires-declaration-candidat) les pièces réclamées ci-dessus pour chaque candidat et notamment une déclaration du sous-traitant indiquant qu'il ne tombe pas sous le coup des interdictions visées aux articles 43 et 44 du Code des marchés publics ;Des renseignements complémentaires peuvent être demandés par écrit jusqu'à 10 jours au plus tard avant la date limite de remise des offres.. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Saint-Denis de la Réunion\", \"ADRESSE\": \"27, rue Félix Guyon-CS 61107\", \"CP\": \"97404\", \"VILLE\": \"Saint-Denis\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-92-43-60\", \"FAX\": \"(+33) 2-62-92-43-62\", \"MEL\": \"greffe.ta-st-denis-de-la-reunion@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif Interrégional de règlement amiable des litiges des marchés publics\", \"ADRESSE\": \"21 Rue Miollis\", \"CP\": \"75015\", \"VILLE\": \"Paris\", \"TEL\": \"(+33) 1-44-42-63-43\", \"FAX\": \"(+33) 1-44-42-63-37\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Saint-Denis de la Réunion- secrétariat du greffe\", \"ADRESSE\": \"27, rue Félix Guyon-CS 61107\", \"CP\": \"97404\", \"VILLE\": \"Saint-Denis\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-92-43-60\", \"FAX\": \"(+33) 2-62-92-43-62\", \"MEL\": \"greffe.ta-st-denis-de-la-reunion@juradm.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-30328"
+      }
+    ]
+  }
 }
