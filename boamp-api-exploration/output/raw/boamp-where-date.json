@@ -1,6 +1,339 @@
 {
-  "ok": false,
+  "ok": true,
   "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&where=dateparution+%3E%3D+date%272026-01-01%27",
-  "error": "REQUEST_FAILED",
-  "details": "fetch failed"
+  "status": 200,
+  "data": {
+    "total_count": 48417,
+    "results": [
+      {
+        "idweb": "26-7298",
+        "id": "26_7298",
+        "contractfolderid": null,
+        "objet": "TRAVAUX D'AMENAGEMENTS INTERIEURS ET EXTERIEURS",
+        "filename": "26-7298",
+        "famille": "FNS",
+        "code_departement": [
+          "59"
+        ],
+        "code_departement_prestation": null,
+        "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+        "dateparution": "2026-01-21",
+        "datefindiffusion": "2026-02-16",
+        "datelimitereponse": "2026-02-16T12:00:00+00:00",
+        "nomacheteur": "COMMUNE DE LA MADELEINE",
+        "titulaire": null,
+        "perimetre": "FNSimple",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "264",
+          "308"
+        ],
+        "dc": [
+          "264",
+          "308"
+        ],
+        "descripteur_libelle": [
+          "Peinture (travaux)",
+          "Revêtements de sols"
+        ],
+        "type_marche": [
+          "TRAVAUX"
+        ],
+        "type_marche_facette": [
+          "Travaux"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "3.2.5",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-7298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"COMMUNE DE LA MADELEINE\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-01-21\", \"DATE_LIMITE_REPONSE\": \"2026-02-16T12:00:00.000+01:00\", \"DATE_FIN_DIFFUSION\": \"2026-02-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}]}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"DEP_PUBLICATION\": \"59\", \"RESUME_OBJET\": \"TRAVAUX D'AMENAGEMENTS INTERIEURS ET EXTERIEURS\"}}",
+        "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"COMMUNE DE LA MADELEINE\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"21590368300013\", \"ville\": \"LA MADELEINE\", \"cp\": \"59110\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://marchespublics596280.fr/entreprise/consultation/581998?orgAcronyme=50368\", \"identifiantInterne\": \"2026_TX_AMENAGEMENTS\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"SERVICE-ACHATS\", \"adresseMailContact\": \"service-achats@ville-lamadeleine.fr\", \"telContact\": \"+33 320127979\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteEcoFin\": \"Conditions énoncées dans les documents de la consultation\", \"capaciteTech\": \"Conditions énoncées dans les documents de la consultation\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2026-02-16T12:00:00.000+01:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}, \"variantes\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"categorieAcheteur\": \"45432111-5 : Travaux de pose de revêtements de sols souples / 44111400-5 : Peintures et revêtements muraux\", \"criteresAttrib\": \"Critères énoncés dans les documents de la consultation\"}, \"natureMarche\": {\"intitule\": \"TRAVAUX D'AMENAGEMENTS INTERIEURS ET EXTERIEURS\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45432111\"}}, \"natureMarche\": {\"travaux\": \"\"}, \"description\": \"TRAVAUX D'AMENAGEMENTS INTERIEURS ET EXTERIEURS\", \"lieuExecution\": \"(59) Nord\", \"dureeMois\": \"12\", \"tranches\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@xsi:type\": \"xs:string\"}}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"Les renseignements complémentaires sur les documents de la cdoantesullitmaittieonfisxeéreonptouernvlaoyréésceaputxioonpédreasteouffrrseés,copnooumr aiquuteasnt6qjuo'uilrssecnalaeinednatifraeistalau dpelumsatnadrdea7vjaonutrsla calendaires avant la date limite fixée pour la réception des offres.\"}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-7298"
+      },
+      {
+        "idweb": "26-7308",
+        "id": "26_7308",
+        "contractfolderid": null,
+        "objet": "Prestations traiteurs pour l'URSSAF Normandie",
+        "filename": "26-7308",
+        "famille": "FNS",
+        "code_departement": [
+          "76",
+          "14",
+          "27",
+          "50",
+          "61"
+        ],
+        "code_departement_prestation": null,
+        "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+        "dateparution": "2026-01-21",
+        "datefindiffusion": "2026-02-28",
+        "datelimitereponse": "2026-02-27T12:00:00+00:00",
+        "nomacheteur": "URSSAF Normandie",
+        "titulaire": null,
+        "perimetre": "FNSimple",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": [
+          "sociaux",
+          "environnementaux"
+        ],
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "304"
+        ],
+        "dc": [
+          "304"
+        ],
+        "descripteur_libelle": [
+          "Repas, traiteur"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "3.2.5",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-7308\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"URSSAF Normandie\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-01-21\", \"DATE_LIMITE_REPONSE\": \"2026-02-27T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"304\", \"LIBELLE\": \"Repas, traiteur\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"76\", \"14\", \"27\", \"50\", \"61\"], \"RESUME_OBJET\": \"Prestations traiteurs pour l'URSSAF Normandie\"}}",
+        "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"URSSAF NORMANDIE\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"90209799700016\", \"ville\": \"ROUEN CEDEX 1\", \"cp\": \"76040\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://www.marches-publics.gouv.fr/entreprise/consultation/2927597?orgAcronyme=s7h\", \"identifiantInterne\": \"UR287-2026-01\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"oui\": \"\"}, \"nomContact\": \"Pôle Achats Marchés \", \"adresseMailContact\": \"achatsmarches.normandie@urssaf.fr\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Une lettre de candidature mentionnant si le candidat se présente seul ou en groupement et qui précisera si ce groupement est conjoint ou solidaire. Dans ce dernier cas, la lettre fera apparaître les membres du groupement et sera signée par l’ensemble des membres ou par le mandataire s’il justifie des habilitations nécessaires pour représenter ces membres. // Une déclaration sur l’honneur dûment datée et signée par la personne habilitée à l’engager, pour justifier que le candidat n’entre dans aucun des cas mentionnés à l’article R2143-3 du code de la commande publique. // Une déclaration indiquant que le candidat est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l’emploi des travailleurs handicapés et de l’égalité homme-femme. NB : Les imprimés DC1 et DC2 du Ministère des Finances et de l’Economie peuvent être utilisés et sont téléchargeables à l’adresse Internet suivante : http ://www.economie.gouv.fr/daj/formulaires-marches-publics // Si le candidat est en redressement judiciaire, le candidat produit la copie du ou des jugements prononcés à cet effet.\", \"capaciteEcoFin\": \"Une déclaration concernant le chiffre d’affaires global du candidat et, le cas échéant, le chiffre d’affaires du domaine d’activité faisant l’objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l’entreprise ou du début d’activité de l’opérateur économique, dans la mesure où les informations sur ces chiffres d’affaires sont disponibles. // Des déclarations appropriées de banques ou, le cas échéant, preuve d’une assurance des risques professionnels pertinents.\", \"capaciteTech\": \"Une déclaration indiquant les effectifs moyens annuels du candidat et l’importance du personnel d’encadrement pour chacune des trois dernières années. // Une présentation d’une liste des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé ;  Les certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des services par des références à certaines spécifications techniques. // Une description de l’outillage, du matériel et de l’équipement technique dont le candidat disposera pour la réalisation du marché public.\", \"techAchat\": {\"accordCadre\": \"\"}, \"dateReceptionOffres\": \"2026-02-27T12:00:00\", \"presOffres\": {\"autorisee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"variantes\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"categorieAcheteur\": \"Pouvoir adjudicateur\"}, \"natureMarche\": {\"intitule\": \"Prestations traiteurs pour l'URSSAF Normandie\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"L’accord-cadre a pour objet la réalisation de prestations de services de traiteurs pour les cafés d’accueil/pause-café, les cocktails, les plateaux-repas, les buffets qui ont lieu sur les 8 sites (dont 2 sites sur Caen) indiqués au DCE ou dans des salles de réunion tierces. \", \"lieuExecution\": \"Normandie\", \"valeurEstimee\": {\"@devise\": \"EUR\", \"fourchette\": {\"valeurBasse\": \"1\", \"valeurHaute\": \"75000\"}}, \"tranches\": {\"non\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"oui\": {\"@ns2:type\": \"ns4:boolean\", \"#text\": \"true\"}}}, \"lots\": {\"lot\": [{\"description\": \"1- Prestations pour l’URSSAF de Rouen (Seine Maritime) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Rouen\"}, {\"description\": \"2- Prestations pour l’URSSAF du Havre (Seine-Maritime) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Le Havre\"}, {\"description\": \"3- Prestations pour l’URSSAF de Dieppe (Seine Maritime) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Dieppe\"}, {\"description\": \"4- Prestations pour l’URSSAF d’Evreux (Eure) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Evreux\"}, {\"description\": \"5- Prestations pour les URSSAF de Caen-Isigny et Caen-Unicité (Calvados) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Caen \"}, {\"description\": \"6- Prestations pour l’URSSAF de Saint-Lô (Manche) \", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Saint Lô\"}, {\"description\": \"7- Prestations pour l’URSSAF d’Alençon-Valframbert (Orne)\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"55520000\"}}, \"lieuExecutionLivraison\": \"Alençon\"}]}, \"informComplementaire\": {\"non\": \"\"}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-7308"
+      },
+      {
+        "idweb": "26-7319",
+        "id": "26_7319",
+        "contractfolderid": null,
+        "objet": "Relance_Lot 2_FINITIONS et Lot 5_MENUISERIE_Travaux de mise en accessibilité du lycée Louis Lachenal (74 - Argonay)",
+        "filename": "26-7319",
+        "famille": "FNS",
+        "code_departement": [
+          "74",
+          "69"
+        ],
+        "code_departement_prestation": null,
+        "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+        "dateparution": "2026-01-21",
+        "datefindiffusion": "2026-02-11",
+        "datelimitereponse": "2026-02-11T12:00:00+00:00",
+        "nomacheteur": "Région Auvergne-Rhône-ALpes",
+        "titulaire": null,
+        "perimetre": "FNSimple",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "269",
+          "264",
+          "222"
+        ],
+        "dc": [
+          "269",
+          "264",
+          "222"
+        ],
+        "descripteur_libelle": [
+          "Plâtrerie",
+          "Peinture (travaux)",
+          "Menuiserie"
+        ],
+        "type_marche": [
+          "TRAVAUX"
+        ],
+        "type_marche_facette": [
+          "Travaux"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "3.2.5",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-7319\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Région Auvergne-Rhône-ALpes\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-01-21\", \"DATE_LIMITE_REPONSE\": \"2026-02-11T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-02-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"269\", \"LIBELLE\": \"Plâtrerie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"DEP_PUBLICATION\": [\"74\", \"69\"], \"RESUME_OBJET\": \"Relance_Lot 2_FINITIONS et Lot 5_MENUISERIE_Travaux de mise en accessibilité du lycée Louis Lachenal (74 - Argonay)\"}}",
+        "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Région Auvergne-Rhône-ALpes\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"20005376700014\", \"ville\": \"Lyon cedex 2\", \"cp\": \"69269\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2026_TarWVppjGK\", \"identifiantInterne\": \"DAF_2025_000461\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Justinien Belabbas-Weil\", \"adresseMailContact\": \"Justinien.BELABBAS-WEIL@auvergnerhonealpes.fr\", \"telContact\": \"0426733700\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteTech\": \"cf. Règlement de consultation.\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-02-11T12:00:00\", \"presOffres\": {\"exigee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}}, \"natureMarche\": {\"intitule\": \"Relance_Lot 2_FINITIONS et Lot 5_MENUISERIE_Travaux de mise en accessibilité du lycée Louis Lachenal (74 - Argonay)\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45454100\"}}, \"natureMarche\": {\"travaux\": \"\"}, \"description\": \"Relance_Lot 2_FINITIONS et Lot 5_MENUISERIE_Travaux de mise en accessibilité du lycée Louis Lachenal (74 - Argonay)\", \"lieuExecution\": \"Argonay (74)\", \"dureeMois\": \"5\", \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"oui\": \"\"}}, \"lots\": {\"lot\": [{\"description\": \"Lot 2 : Finition\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45410000\"}}, \"estimationValeur\": {\"@devise\": \"EUR\", \"valeur\": \"0.00\"}, \"lieuExecutionLivraison\": \"Argonay (74)\"}, {\"description\": \"Lot 5 : Menuiserie\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45421000\"}}, \"estimationValeur\": {\"@devise\": \"EUR\", \"valeur\": \"0.00\"}, \"lieuExecutionLivraison\": \"Argonay (74)\"}]}, \"informComplementaire\": {\"oui\": {\"visiteDetail\": \"Visite obligatoire pour tous les lots sur prise de rendez-vous.\\nLe lycée est fermé pendant la période de vacances scolaires.\\nContact pour la visite : se référer à l'article 1.4 du règlement de consultation.\"}}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-7319"
+      },
+      {
+        "idweb": "26-7109",
+        "id": "26_7109",
+        "contractfolderid": null,
+        "objet": "Marché Public Relatif à La Réalisation De Prestations De Mandat De Commissaires Aux Comptes Pour Les Exercices Comptables 2026-2031\nDe La Spl Levaparc",
+        "filename": "26-7109",
+        "famille": "FNS",
+        "code_departement": [
+          "92"
+        ],
+        "code_departement_prestation": null,
+        "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+        "dateparution": "2026-01-21",
+        "datefindiffusion": "2026-03-06",
+        "datelimitereponse": "2026-03-06T12:00:00+00:00",
+        "nomacheteur": "Spl Levaparc",
+        "titulaire": null,
+        "perimetre": "FNSimple",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "446"
+        ],
+        "dc": [
+          "446"
+        ],
+        "descripteur_libelle": [
+          "Expertise comptable"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "3.2.5",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-7109\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Spl Levaparc\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-01-21\", \"DATE_LIMITE_REPONSE\": \"2026-03-06T12:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-03-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"446\", \"LIBELLE\": \"Expertise comptable\"}}, \"NATURE_MARCHE\": {\"SERVICES\": \"\"}, \"DEP_PUBLICATION\": \"92\", \"RESUME_OBJET\": \"Marché Public Relatif à La Réalisation De Prestations De Mandat De Commissaires Aux Comptes Pour Les Exercices Comptables 2026-2031\\nDe La Spl Levaparc\"}}",
+        "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Spl Levaparc\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"35334722200286\", \"ville\": \"LEVALLOIS PERRET\", \"cp\": \"92300\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlDocConsul\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematent.login&type=Dce&Idm=1767036\", \"identifiantInterne\": \"2026-01-01\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Aurore Halipre\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Renvoi au règlement de la consultation\", \"capaciteEcoFin\": \"Renvoi au règlement de la consultation\", \"capaciteTech\": \"Renvoi au règlement de la consultation\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-03-06T12:00:00\", \"presOffres\": {\"interdite\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": \"\"}, \"variantes\": {\"non\": \"\"}, \"criteresAttrib\": \"énoncé dans le Rc\"}, \"natureMarche\": {\"intitule\": \"MARCHÉ PUBLIC RELATIF À LA RÉALISATION DE PRESTATIONS DE MANDAT DE COMMISSAIRES AUX COMPTES POUR LES EXERCICES COMPTABLES 2026-2031\\nDE LA SPL LEVAPARC\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"79200000\"}}, \"natureMarche\": {\"services\": \"\"}, \"description\": \"Le présent marché a pour objet la désignation d'un commissaire aux comptes titulaires et, le cas échéant, d'un commissaire aux comptes suppléant, chargés d'exercer le mandat légal de commissariat aux comptes de la SPL LEVAPARC pour les exercices comptables 2026 à 2031, conformément aux articles L.823-1 et suivants du Code du commerce.\\nLa procédure de passation du présent marché est soumise aux dispositions du Code de la commande publique\", \"lieuExecution\": \"41 rue Camille Pelletan 92300 - LEVALLOIS PERRET\", \"dureeMois\": \"72\", \"tranches\": {\"non\": \"\"}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": \"\"}}, \"informComplementaire\": {\"non\": \"\", \"autresInformComplementaire\": \"1 - OBJET DU MARCHÉ\\nLe présent marché a pour objet la désignation d'un commissaire aux comptes titulaires et, le cas échéant, d'un commissaire aux comptes suppléant, chargés d'exercer le mandat légal de commissariat aux comptes de la SPL LEVAPARC pour les exercices comptables 2026 à 2031, conformément aux articles L.823-1 et suivants du Code du commerce.\\n2 - DESCRIPTIONS DES PRESTATIONS\\nLes prestations comprennent notamment :\\n-la mission légale de certification des comptes annuels de la SPL LEVAPARC, exercée de manière continue, régulière et indivisible pendant toute la durée du mandat ;\\n-l'ensemble des missions légalement prévues par le Code du commerce et les normes d'exercice professionnel, notamment en cas d'évènements affectant la vie de la société (conventions réglementées, opérations sur le capital, transformations, etc.).\\nLe contenu des prestations est précisé au sein du Cahier des Clauses Techniques Particulières (CCTP).\\n3 - PRESTATIONS RÉSERVÉES À UNE PROFESSION PARTICULIÈRE\\nLe présent marché est réservée aux commissaires aux comptes inscrits sur la liste prévue à l'article L.822-1 du Code de commerce.\\n4 - CONDITIONS PARTICULIÈRES D'EXÉCUTION DU MARCHÉ\\nSe référer à l'article 2.4 du Règlement de Consultation\\n5 - DURÉE DU MARCHÉ\\nLe marché est conclu pour une durée de soixante-douze (72) mois, soit une durée de six (6) ans, conformément à l'article L. 823-3 du Code de commerce.\\nLe marché est conclu à compter du premier jour suivant l'approbation des comptes de l'exercice 2025 par l'Assemblée Générale de la SPL LEVAPARC.\\nLe marché prendra fin à l'issue de l'Assemblée Générale de la SPL LEVAPARC approuvant les comptes de l'exercice 2031.\\n6 - PROCÉDURE DE PASSATION\\nLa présente consultation est passée selon une procédure adaptée, en application des dispositions des articles L. 2123-1 et R. 2123-1 à R. 2123-7 du Code de la commande publique.\\n7 - DÉCOMPOSITION DES PRESTATIONS\\nSe référer à l'article 4.4 du Règlement de Consultation\\n8 - FORME ET MONTANT DU MARCHE\\nLe présent marché est un marché non alloti et mono-attributaire.\\nRémunération de la manière suivante :\\n-Mission légale de commissariat aux comptes : rémunération sous forme de forfait annuel par exercice comptable figurant au sein de l'annexe 1 à l'acte d'engagement - Tableau récapitulatif des prix - 1 - Mission légale (Prix Global et forfaitaire) ;\\n-Missions complémentaires ou particulières (non récurrentes) : rémunération selon prix unitaires figurant au sein de l'annexe 1 à l'acte d'engagement - Tableau récapitulatif des prix - 2 - Missions complémentaires ou particulières (prix unitaires). Ces prestations se seront exécutées uniquement après acceptation d'un devis par le Pouvoir Adjudicateur. La comparaison des offres pour ces missions se fera uniquement sur le prix unitaire proposé par le candidat pour chaque type de vacation.\\nLe marché est conclu sans montant minimum ni plafond maximum, les prestations étant exécutées au fur et à mesure des besoins.\\n9 - VARIANTES / PRESTATIONS SUPPLÉMENTAIRES ÉVENTUELLES / OPTIONS\\nSe référer à l'article 4.8 du Règlement de Consultation\\n10 -  MODIFICATIONS DE DÉTAIL AU DOSSIER DE CONSULTATION\\nLe pouvoir adjudicateur se réserve le droit d'apporter au plus tard six (6) jours calendaires avant la date limite fixée pour la réception des plis, des modifications de détail au dossier de consultation.\\nDans l'hypothèse d'un report de la date limite de remise des candidatures et des offres, la disposition précédente est applicable au regard de la nouvelle date.\\n11 -QUESTIONS DES CANDIDATS\\nSe référer à l'article 4.11 du RC.\\n12 - SÉLECTION DES CANDIDATURES ET JUGEMENT DES OFFRES\\nSe référer à l'article 8 du Règlement de Consultation\\n13 -  PHASE DE NÉGOCIATION\\nSe référer à l'article 8.3 du Règlement de Consultation\\n14 - PROCÉDURE DE RECOURS\\nInstance chargée des procédures de recours :\\nTribunal de grande instance de Nanterre\\n6 rue Pablo Néruda\\n92000 NANTERRE\\n01.40.97.10.10\"}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-7109"
+      },
+      {
+        "idweb": "26-7113",
+        "id": "26_7113",
+        "contractfolderid": null,
+        "objet": "Rénovation de la caserne de gendarmerie de DOULAINCOURT-SAUCOURT (52)",
+        "filename": "26-7113",
+        "famille": "FNS",
+        "code_departement": [
+          "2",
+          "8",
+          "10",
+          "51",
+          "52",
+          "54",
+          "55",
+          "57",
+          "77"
+        ],
+        "code_departement_prestation": null,
+        "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+        "dateparution": "2026-01-21",
+        "datefindiffusion": "2026-02-20",
+        "datelimitereponse": "2026-02-20T11:00:00+00:00",
+        "nomacheteur": "SGAMI Est DAGF BCP",
+        "titulaire": null,
+        "perimetre": "FNSimple",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": [
+          "sociaux",
+          "environnementaux"
+        ],
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "169",
+          "222",
+          "264"
+        ],
+        "dc": [
+          "169",
+          "222",
+          "264"
+        ],
+        "descripteur_libelle": [
+          "Isolation",
+          "Menuiserie",
+          "Peinture (travaux)"
+        ],
+        "type_marche": [
+          "TRAVAUX"
+        ],
+        "type_marche_facette": [
+          "Travaux"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "3.2.5",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-7113\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"SGAMI Est DAGF BCP\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-01-21\", \"DATE_LIMITE_REPONSE\": \"2026-02-20T11:00:00.000\", \"DATE_FIN_DIFFUSION\": \"2026-02-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"169\", \"LIBELLE\": \"Isolation\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}]}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"02\", \"08\", \"10\", \"51\", \"52\", \"54\", \"55\", \"57\", \"77\"], \"RESUME_OBJET\": \"Rénovation de la caserne de gendarmerie de DOULAINCOURT-SAUCOURT (52)\"}}",
+        "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"SGAMI EST\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"11000201100044\", \"ville\": \"METZ\", \"cp\": \"57000\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=2920347&orgAcronyme=g6l\", \"identifiantInterne\": \"2025SGAMI57045\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Bureau de la commande publique - SGAMI EST\", \"adresseMailContact\": \"sgami-est-marches-publics@interieur.gouv.fr\", \"telContact\": \"0372408336\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Les candidats devront présenter une liste de 3 références de travaux similaires effectués au cours des trois dernières années avec la description de ceux-ci ainsi que le mode de réalisation. Pour les entreprises de création récente (moins de trois ans), la preuve de la capacité peut être apportée par tout moyen.\", \"capaciteEcoFin\": \"Voir RC et CCAP\", \"capaciteTech\": \"RGE QUALIBAT - Reconnu garant de l'environnement ou équivalent\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-02-20T11:00:00.000\", \"presOffres\": {\"exigee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}, \"variantes\": {\"non\": {\"@xsi:type\": \"xs:string\"}}}, \"natureMarche\": {\"intitule\": \"2025SGAMI57045 - Rénovation de la caserne de gendarmerie de DOULAINCOURT-SAUCOURT (52)\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45443000\"}}, \"natureMarche\": {\"travaux\": \"\"}, \"description\": \"Ce projet a pour objet la rénovation de la caserne de gendarmerie située 2 rue de la Gendarmerie à Doulaincourt-Saucourt (52) 52270. Cette réhabilitation s'inscrit dans le programme budgétaire AG 308.     Le projet contient 4 lots : \\\"Rénovation de l'Isolation thermique par l'extérieur (ITE)\\\", \\\"Toiture\\\", \\\"Menuiserie extérieure\\\" et \\\"Peinture intérieure\\\".\", \"lieuExecution\": \"2 rue de la Gendarmerie à Doulaincourt-Saucourt 52270\", \"dureeMois\": \"10\", \"tranches\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}}, \"lots\": {\"lot\": [{\"description\": \"Rénovation de l'isolement thermique par l'extérieur (ITE)\\n\\nBâtiments 1 et 2\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45443000\"}}, \"lieuExecutionLivraison\": \"Caserne de gendarmerie - 2 rue de la Gendarmerie à Doulaincourt-Saucourt (52 270)\"}, {\"description\": \"TOITURE\\n\\nRévision de la toiture, rénovation des débords de toiture et bardage, et isolation des combles du bâtiment 2.\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45261900\"}}, \"lieuExecutionLivraison\": \"Caserne de gendarmerie - 2 rue de la Gendarmerie à Doulaincourt-Saucourt (52 270)\"}, {\"description\": \"MENUISERIE EXTÉRIEURE\\n\\nRemplacement de la porte d'accès principale du bâtiment 2\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45421000\"}}, \"lieuExecutionLivraison\": \"Caserne de gendarmerie - 2 rue de la Gendarmerie à Doulaincourt-Saucourt (52 270)\"}, {\"description\": \"PEINTURE INTÉRIEURE \\n\\nRénovation en peinture des LSTS (bâtiment 1) et de la cage d'escalier des logements (bâtiment 2)\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45442100\"}}, \"lieuExecutionLivraison\": \"Caserne de gendarmerie - 2 rue de la Gendarmerie à Doulaincourt-Saucourt (52 270)\"}]}, \"informComplementaire\": {\"oui\": {\"visiteDetail\": \"La visite est obligatoire, 2 créneaux par lot sont indiqués dans le règlement de consultation\"}, \"autresInformComplementaire\": \"Voir précisions à l'article 2.6 du règlement de consultation\"}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-7113"
+      }
+    ]
+  }
 }

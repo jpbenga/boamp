@@ -2,5 +2,5 @@
   "ok": false,
   "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&where=departement%3D%2269%22",
   "error": "REQUEST_FAILED",
-  "details": "fetch failed"
+  "details": "HTTP_400: ODSQL query is malformed: Unknown field: departement. Clause(s) containing the error(s): where."
 }

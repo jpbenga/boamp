@@ -2,5 +2,5 @@
   "ok": false,
   "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&where=contains%28objet%2C+%22espaces+verts%22%29",
   "error": "REQUEST_FAILED",
-  "details": "fetch failed"
+  "details": "HTTP_400: ODSQL syntax exception: unexpected ( at position 8 in contains(objet, \"espaces verts\"). Clause(s) containing the error(s): where."
 }

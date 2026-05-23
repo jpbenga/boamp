@@ -1,6 +1,621 @@
 {
-  "ok": false,
+  "ok": true,
   "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=10&offset=20",
-  "error": "REQUEST_FAILED",
-  "details": "fetch failed"
+  "status": 200,
+  "data": {
+    "total_count": 1669132,
+    "results": [
+      {
+        "idweb": "15-31233",
+        "id": "15_31233",
+        "contractfolderid": null,
+        "objet": "fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités de Lille-Sciences et Technologies à Villeneuve D'Ascq",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "59"
+        ],
+        "code_departement_prestation": "59",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": "2015-04-13T11:00:00+00:00",
+        "nomacheteur": "Université Lille 1 Sciences et Techno",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "186"
+        ],
+        "dc": [
+          "186"
+        ],
+        "descripteur_libelle": [
+          "Logiciel"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31233\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31233.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-13T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"DEP_PUBLICATION\": \"59\", \"DEP_PRESTATION\": \"59\", \"RESUME_OBJET\": \"fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités de Lille-Sciences et Technologies à Villeneuve D'Ascq\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université Lille 1 Sciences et Techno\", \"CORRESPONDANT\": \"Nassima ITOUMAINE\", \"ADRESSE\": \"Service achats et marchés publicsCité cientifique Bâtiment PCET\", \"CP\": \"59655\", \"VILLE\": \"Villeneuve d'Ascq cedex\", \"TEL\": \"(+33) -20-33-77-98\", \"FAX\": \"(+33) -20-33-70-00\", \"MEL\": \"nassima.itoumaine@univ-lille1.fr\", \"URL\": \"http://www.univ-lille1.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.univ-lille1.fr/presentation/Marches-publics/AppelsOffres\", \"URL_INFORMATION\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"UNIVERSITE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"2015 940 16\", \"TYPE_MARCHE\": {\"SERVICE\": \"11\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet l'achat d'un nouvel outil de gestion numérique pour les services des relations internationales des Universités de Lille. Le présent marché est passé en groupement de commandes, conformément à l'article 8 du Code des marchés publics. Les membres du groupement sont les suivants :-Université de Lille-Sciences et Technologies-Université de Lille-Droit et Santé-Université de Lille-Sciences humaines et socialesLe mandataire du groupement est l'Université de Lille-Sciences et Technologies.\", \"CPV\": {\"PRINCIPAL\": \"72212332\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"La durée du marché est de quatre (4) ans fermes, à compter de la réception de la notification du marché par le titulaire.Il s'agit d'un marché ordinaire, passé à prix global et forfaitaire.Les candidats devront présenter une proposition de base entièrement conforme au dossier de consultation.Sous réserve d'avoir présenté la proposition de base, les candidats pourront proposer des variantes.Une démonstration du logiciel est prévue le 21 avril 2015 de 9h à 13h.\", \"OPTIONS\": {\"NON\": \"\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-13T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Financement sur crédits de l'Université Lille- Sciences et Technologies, Université de Lille-Droit et santé, Université de Lille-Sciences humaines et sociales ;Application du décret no 2012-1246 du 07 novembre 2012, relatif à la gestion budgétaire et comptable publique;Le mode de règlement choisi par l'administration est le virement par mandat administratif. Le délai global de paiement est fixé à 30 jours à compter de la réception de la facture.\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Renseignements concernant la situation propre du fournisseur, justificatifs quant aux conditions d'accès à la commande publique visés à l'article 43 à 46 du code des marchés publics et renseignements et formalités nécessaires pour l'évaluation des capacités professionnelles, techniques et financières minimales requises du candidat.\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2015 940 16\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Lille\", \"ADRESSE\": \"143, rue Jacquemars-Giélée - BP 2039\", \"CP\": \"59014\", \"VILLE\": \"Lille cedex\", \"TEL\": \"(+33) 3-20-63-13-00\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des différends et des litiges\", \"ADRESSE\": \"1, rue du Préfet Claude Érignac\", \"CP\": \"54038\", \"VILLE\": \"Nancy cedex\", \"TEL\": \"(+33) 3-83-34-25-65\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Lille\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31233"
+      },
+      {
+        "idweb": "15-31324",
+        "id": "15_31324",
+        "contractfolderid": null,
+        "objet": "Prestation d'assurance pour les besoins de la ville de Pont St Martin",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "44",
+          "85",
+          "72",
+          "79"
+        ],
+        "code_departement_prestation": "44",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": "2015-04-13T11:00:00+00:00",
+        "nomacheteur": "MAIRIE DE PONT ST MARTIN",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "20"
+        ],
+        "dc": [
+          "20"
+        ],
+        "descripteur_libelle": [
+          "Assurance"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31324\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31324.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-13T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"66\", \"LIBELLE\": \"Assurance\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": [\"44\", \"85\", \"72\", \"79\"], \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"Prestation d'assurance pour les besoins de la ville de Pont St Martin\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAIRIE DE PONT ST MARTIN\", \"CORRESPONDANT\": \"surault maud\", \"ADRESSE\": \"rue de la mairie\", \"CP\": \"44860\", \"VILLE\": \"Pont saint martin\", \"TEL\": \"(+33) 1-02-40-26-80-23\", \"URL\": \"http://www.synapse-ouest.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.synapse-ouest.com\", \"URL_PARTICIPATION\": \"http://www.synapse-ouest.com\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de service relatif à la prestation d'assurance pour les besoins de la ville de Pont St Martin\", \"TYPE_MARCHE\": {\"SERVICE\": \"6a\"}, \"OBJET_COMPLET\": \"Souscription de différents contrats d'assurances au profit de la ville de PONT SAINT MARTIN\", \"CPV\": [{\"PRINCIPAL\": \"66515200\"}, {\"PRINCIPAL\": \"66516000\"}, {\"PRINCIPAL\": \"66514110\"}, {\"PRINCIPAL\": \"66512000\"}, {\"PRINCIPAL\": \"66513100\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Ville de Pont Saint Martin\", \"CP\": \"44860\", \"VILLE\": \"Pont saint martin\", \"CODE_NUTS\": \"FR5\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Lot 1: Dommages aux biens et risques annexesLot 2: Responsabilité et risques annexesLot 3: Flotte automobile et risques annexesLot 4 : Risques statutaires du personnelLot 5 : Protection Juridique des agents et élus\", \"OPTIONS\": {\"NON\": \"\"}}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2015-05-01\", \"DATE_FIN\": \"2020-12-31\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Dommages aux biens et risques annexes\", \"DESCRIPTION\": \"Assurance 'Dommages aux biens et risques annexes'\", \"CPV\": {\"PRINCIPAL\": \"66515200\"}, \"QUANTITE\": \"neant\", \"INFO_COMPL\": \"DUREE DU MARCHE DU 01 MAI 2015 AU 31 DECEMBRE 2020\"}, {\"NUM\": \"2\", \"INTITULE\": \"Responsabilité et risques annexes\", \"DESCRIPTION\": \"Responsabilité et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"QUANTITE\": \"neant\", \"INFO_COMPL\": \"DUREE DU MARCHE DU 01 JANVIER 2016 AU 31 DECEMBRE 2020\"}, {\"NUM\": \"3\", \"INTITULE\": \"Flotte automobile et risques annexes\", \"DESCRIPTION\": \"Assurance 'Flotte automobile et risques annexes'\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"QUANTITE\": \"neant\", \"INFO_COMPL\": \"DUREE DU MARCHE DU 01 MAI 2015 AU 31 DECEMBRE 2020\"}, {\"NUM\": \"4\", \"INTITULE\": \"Risques statutaires du personnel\", \"DESCRIPTION\": \"Assurance 'Risques statutaires du personnel'\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"QUANTITE\": \"neant\", \"INFO_COMPL\": \"DUREE DU MARCHE DU 01 JANVIER 2016 AU 31 DECEMBRE 2020\"}, {\"NUM\": \"5\", \"INTITULE\": \"Protection juridique des agents et élus\", \"DESCRIPTION\": \"Assurance 'Protection juridique des agents et élus'\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"QUANTITE\": \"neant\", \"INFO_COMPL\": \"DUREE DU MARCHE DU 01 JANVIER 2016 AU 31 DECEMBRE 2020\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"1.Nature et étendue des garanties - Qualité des clauses contractuelles : pondération 5\"}, {\"@ORDRE\": \"2\", \"#text\": \"2.Tarification : pondération 3\"}, {\"@ORDRE\": \"3\", \"#text\": \"3.Modalité et procédure de gestion des dossiers et notamment des sinistres par la compagnie et/ou son intermédiaire : pondération 2\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-13T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"240\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Néant\", \"FINANCEMENT\": \"Virement Administratif et selon les dispositions du Code des assurances. Financements sur fonds propres inscrits au budget.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies : Voir infra.Situation juridique - références requises :Sont exigés :1)Lettre unique de candidature (indication des membres et désignant le mandataire) : formulaire type DC1 ou lettre équivalente.2)Déclaration du candidat relative à son identité, sa forme juridique, son représentant habilité pour l'engager au présent marché, l'existence ou non de procédure collective (joindre jugement et traduction le cas échéant) et sa capacité financière : formulaire type DC2 ou rédaction équivalente.1) et 2)Les formulaires DC sont accessibles, non exclusivement, sur le site internet http://www.economie.gouv.fr/daj/formulaires3)En cas d'allotissement, le DC2 doit être fourni pour chacun des lots de la consultation.4)Mandat de la compagnie d'assurance au courtier, le cas échéant.5)Mandat de la compagnie d'assurance à l'agent, le cas échéant.6)Le pouvoir de la personne habilitée à engager le candidat.7)Attestation d'assurance et de caution financière conforme au Code des assurances (agents et courtiers).8)Etre en conformité au regard des articles 43, 44 et 45 du Code des marchés publics français. Si le formulaire DC1 n'est pas utilisé, la déclaration sur l'honneur conforme aux articles 43 et 44 du code précité doit impérativement être jointe à la candidature (modèle joint au dossier de consultation).9)Les pièces visées à l'article 46 du Code des marchés publics seront demandées ultérieurement à l'attributaire : détail au règlement de consultation. Elles peuvent aussi être jointes à la candidature.10)Si le candidat est en redressement judiciaire, la copie du ou des jugements prononcés à cet effet.11)Lorsqu'il y a groupement, les documents précités sont à fournir pour chacun des membres\", \"CAP_ECO\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies :-Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les services objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_TECH\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies :-Références notamment en matière de collectivités territoriales et/ou organismes publics pour chacune des trois dernières années.-Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"LIEU_OUVERTURE_OFFRES\": \"Mairie de Pont saint martin\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"L'avis d'appel public à la concurrence est accessible sur le profil d'acheteur www.synapse-ouest.comLes documents de la consultation sont publiés et peuvent être téléchargés sur le profil d'acheteur www.synapse-ouest.comLes offres peuvent être déposées sur le profil d'acheteur www.synapse-ouest.com. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Service du Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/Informations-pratiques/Acces-et-coordonnees\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"SOCIETE PROTECTAS\", \"ADRESSE\": \"BP 28\", \"CP\": \"35390\", \"VILLE\": \"Le grand Fougeray\", \"TEL\": \"(+33) 1-02-99-08-33-40\", \"FAX\": \"(+33) 1-02-99-08-33-41\", \"MEL\": \"audit@protectas.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31324"
+      },
+      {
+        "idweb": "15-31409",
+        "id": "15_31409",
+        "contractfolderid": null,
+        "objet": "construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015 au centre hospitalier de La Rochefoucauld",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "16"
+        ],
+        "code_departement_prestation": "16",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-30",
+        "datelimitereponse": "2015-04-30T15:00:00+00:00",
+        "nomacheteur": "Hopital la rochefoucauld",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "163"
+        ],
+        "dc": [
+          "163"
+        ],
+        "descripteur_libelle": [
+          "Informatique (prestations de services)"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31409\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31409.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-30T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-30\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"16\", \"DEP_PRESTATION\": \"16\", \"RESUME_OBJET\": \"construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015 au centre hospitalier de La Rochefoucauld\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Hopital la rochefoucauld\", \"CORRESPONDANT\": \"M. Dubois laurent-adjoint administratif\", \"ADRESSE\": \"Place du champ de foire\", \"CP\": \"16110\", \"VILLE\": \"La rochefoucauld\", \"TEL\": \"(+33) 5-45-67-54-00\", \"FAX\": \"(+33) 5-45-67-55-58\", \"MEL\": \"marchespublics@ch-larochefoucauld.fr\", \"URL\": \"http://hopital-larochefoucauld.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://hopital-larochefoucauld.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et mise en oeuvre d'architectures réseaux et voix et prestations associées\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"A l'occasion de la construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015, le centre hospitalier de la rochefoucauld souhaite faire évoluer ses architectures réseau et voix. Cette évolution permettra de supporter l'agrandissement du ch, d'implémenter des nouvelles technologies comme la voix sur ip, de généraliser la couverture wifi tout en améliorant la qualité de service.\", \"CPV\": {\"PRINCIPAL\": \"32400000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre hospitalier place du champ de foire\", \"CP\": \"16110\", \"VILLE\": \"La rochefoucauld\", \"CODE_NUTS\": \"FR531\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Option no1 - analyse du réseau Option no2-click to call Option no3-url vers l'annuaire téléphonique de professionnels Option no4- solution d'extraction\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"Prix 40%\"}, {\"@ORDRE\": \"2\", \"#text\": \"Valeur technique 60%\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-30T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Une avance est prévue.son montant est égal à 5% du marché. Une garantie à première demande pour le remboursement de l'avance est exigée.\", \"FINANCEMENT\": \"Le délai global de paiement des prestations est fixé à 50 jours.\", \"FORME_JURIDIQUE\": \"La même entreprise peut présenter pour le marché plusieurs offres en agissant à la fois :&#8226;en qualité de candidat individuel et de membre d'un ou plusieurs groupements&#8226;en qualité de membre de plusieurs groupements.\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le formulaire dc1 'lettre de candidature', disponible sur www.economie.gouv.fr/daj/formulaires-declaration-candidat,dûment complété, daté et signé par le candidat. Dans le cas où le candidat représente un groupement d'entreprises, le formulaire dc1 est signé par tous les membres du groupement.\", \"CAP_ECO\": \"Le formulaire dc2 'déclaration du candidat', disponible sur www.economie.gouv.fr/daj/formulaires-declaration-candidat, dûment complété et signé par le candidat et accompagné des documents demandés. En cas de groupement d'entreprises, chaque candidat produit un formulaire dc2.\", \"CAP_TECH\": \"Un document indiquant les titres d'études et professionnels de l'opérateur économique.Les listes des principales fournitures ou des principaux services au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé ainsi que les attestations du destinataire prouvant les livraisons et les prestations de services ou à défaut déclaration de l'opérateur économique.La déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années en vertu de la loi.La déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.Les certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à des spécifications techniques, ou à défaut, preuves de mesures équivalentes de garantie de qualité.\", \"PRESTATION_RESERVEE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2015-LD-RESEAUX\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le règlement et le dossier de consultation sont en ligne sur la plateforme www.e-marchespublics.com.Les visites sur le site auront lieu le mercredi 18 mars 2015 à 10 heures ou le mercredi 25 mars 2015 à 14 heures. (rendez-vous à l'administration). Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ch de la rochefoucauld\", \"CORRESPONDANT\": \"Laurent dubois - adjoint administratif\", \"ADRESSE\": \"Place du champ de foire - bp 70079\", \"CP\": \"16110\", \"VILLE\": \"La rochefoucauld\", \"TEL\": \"(+33) 5-45-67-54-00\", \"FAX\": \"(+33) 5-45-67-55-58\", \"MEL\": \"marchespublics@ch-larochefoucauld.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de poitiers\", \"ADRESSE\": \"Hôtel gilbert - 15,rue de blossac bp 541\", \"CP\": \"86020\", \"VILLE\": \"Poitiers cedex\", \"TEL\": \"(+33) 5-49-60-79-19\", \"FAX\": \"(+33) 5-49-60-68-09\", \"MEL\": \"greffe.ta-poitiers@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ch de la rochefoucauld\", \"CORRESPONDANT\": \"Monsieur chauveau emmanuel ou M. pérrière eric\", \"ADRESSE\": \"Place du champ de foire - bp 70079\", \"CP\": \"16110\", \"VILLE\": \"La rochefoucauld\", \"TEL\": \"(+33) 5-45-67-54-00\", \"FAX\": \"(+33) 5-45-67-55-58\", \"MEL\": \"marchespublics@ch-larochefoucauld.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ch de la rochefoucauld\", \"CORRESPONDANT\": \"Laurent dubois - adjoint administratif\", \"ADRESSE\": \"Place du champ de foire - bp 70079\", \"CP\": \"16110\", \"VILLE\": \"La rochefoucauld\", \"TEL\": \"(+33) 5-45-67-54-00\", \"FAX\": \"(+33) 5-45-67-55-58\", \"MEL\": \"marchespublics@ch-larochefoucauld.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31409"
+      },
+      {
+        "idweb": "15-31443",
+        "id": "15_31443",
+        "contractfolderid": null,
+        "objet": "location de véhicules et engins de chantier destinés aux services techniques au Barcarès",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "66"
+        ],
+        "code_departement_prestation": "66",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-14",
+        "datelimitereponse": "2015-04-14T13:00:00+00:00",
+        "nomacheteur": "Ville de Barcarès",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "34",
+          "185",
+          "220",
+          "359"
+        ],
+        "dc": [
+          "34",
+          "185",
+          "220",
+          "359"
+        ],
+        "descripteur_libelle": [
+          "Benne",
+          "Location",
+          "Matériel de travaux publics",
+          "Véhicules"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31443\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31443.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-14T14:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-14\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"29\", \"LIBELLE\": \"Machines et équipements\"}, {\"CODE\": \"34\", \"LIBELLE\": \"Produits de l'industrie automobile\"}, {\"CODE\": \"71\", \"LIBELLE\": \"Location sans opérateur\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"34\", \"LIBELLE\": \"Benne\"}, {\"CODE\": \"185\", \"LIBELLE\": \"Location\"}, {\"CODE\": \"220\", \"LIBELLE\": \"Matériel de travaux publics\"}, {\"CODE\": \"359\", \"LIBELLE\": \"Véhicules\"}]}, \"DEP_PUBLICATION\": \"66\", \"DEP_PRESTATION\": \"66\", \"RESUME_OBJET\": \"location de véhicules et engins de chantier destinés aux services techniques au Barcarès\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Barcarès\", \"CORRESPONDANT\": \"M. Le Maire\", \"ADRESSE\": \"Boulevard du 14 juillet BP 5\", \"CP\": \"66421\", \"VILLE\": \"Le Barcares Cedex\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"LOC\": \"\"}}, \"OBJET_COMPLET\": \"Location de véhicules et engins de chantier destinés aux Services Techniques\", \"CPV\": {\"PRINCIPAL\": \"34144700\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Le Barcarès\", \"CODE_NUTS\": \"FR\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"48\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000.00\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Marché séparé à bons de commande avec maximum et un opérateur économique.Les marchés sont conclus pour une période de 1 an à compter de la notification du contrat. Les marchés sont reconductibles pour 3 périodes de un an\", \"RECONDUCTIONS\": {\"OUI\": \"\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Véhicules utilitaires et petits camions bennes\", \"DESCRIPTION\": \"Pickup, utilitaire 3m3, utilitaire 5m3, utilitaire 8m3, camion benne 3 places sans coffre : PTAC inférieur à 3,5 tonnes, camion benne 3 places avec coffre : PTAC inférieur à 3,5 tonnes, camion benne 7 places : PTAC inférieur à 3,5 tonnes, camion plateau : PTAC inférieur à 3,5 tonnes, camion poly-benne : PTAC inférieur à 3,5 tonnes, nacelle sur véhicule léger, fourgon frigorifique 11M3\", \"CPV\": {\"PRINCIPAL\": \"34144700\"}, \"QUANTITE\": \"maximum 80 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\"}, {\"NUM\": \"2\", \"INTITULE\": \"Engins de chantier\", \"DESCRIPTION\": \"Chariot élévateur frontal télescopique, tractopelle, mini pelles + remorque, chargeuses compactes sur pneus ou chenilles + remorque\", \"CPV\": {\"PRINCIPAL\": \"42415310\"}, \"QUANTITE\": \"maximum 40 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\"}, {\"NUM\": \"3\", \"INTITULE\": \"Poids Lourds\", \"DESCRIPTION\": \"Camion benne : PTAC 26 tonnes, camion poly- benne : PTAC 26 tonnes, camion frigorifique : PTCA 19 tonnes\", \"CPV\": {\"PRINCIPAL\": \"34140000\"}, \"QUANTITE\": \"maximum 30 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\"}, {\"NUM\": \"4\", \"INTITULE\": \"Balayeuses\", \"DESCRIPTION\": \"Balayeuse de voirie\", \"CPV\": {\"PRINCIPAL\": \"34144430\"}, \"QUANTITE\": \"maximum 60 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\"}, {\"NUM\": \"5\", \"INTITULE\": \"Laveuses\", \"DESCRIPTION\": \"Laveuse de trottoirs\", \"CPV\": {\"PRINCIPAL\": \"34144400\"}, \"QUANTITE\": \"maximum 40 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-14T14:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Garantie à première demande ou caution personnelle et solidaire couvrant 100,000% du montant de l'avance\", \"FINANCEMENT\": \"Articles 86 à 111 du Code des marchés publics français. Caractéristiques des prix : Prix unitaires. Modalités de variation des prix : Révision Périodique. Annuelle. Une avance de 5,000% sera accordée dans les conditions prévues au contrat. Modalité de règlement des comptes : selon les modalités du C.C.A.G.-F.C.S. Le délai global de paiement est de 30 jours. Modalités de financements : sur fonds propres\", \"FORME_JURIDIQUE\": \"Aucune forme de groupement imposée à l'attributaire. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois : - En qualité de candidats individuels et de membres d'un ou plusieurs groupements ; - En qualité de membres de plusieurs groupements\", \"AUTRES_CONDITIONS_PART_OUI\": \"La durée du contrat précitée est une durée maximum\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ; Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP ; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures objet du contrat, réalisés au cours des trois derniers exercices disponibles ; Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"Liste des principales fournitures effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"15BA02\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les offres peuvent etre transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé . Dématérialisation des procédures : L'organisme acheteur préconise la transmission des plis par voie papier. Il accepte cependant les plis adressés par d'autres moyens permettant d'en garantir la confidentialité et la date de réception. Le fuseau horaire de référence sera celui de (GMT+01:00) Paris, Bruxelles, Copenhague, Madrid. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : doc, pdf, xls, jpg.. Le niveau de sécurité requis pour le certificat de signature électronique est le Niveau (**) du RGS. Les candidats utilisent un certificat conforme au RGS (Référentiel Général de Sécurité) figurant sur la liste de confiance française (http://references.modernisation.gouv.fr) ou sur une liste de confiance d'un autre Etat-membre de l'Union européenne. Toutefois, les candidats sont libres d'utiliser le certificat de leur choix si celui-ci est conforme aux obligations minimales résultant du RGS. Dans ce cas, ils doivent transmettre tous les éléments nécessaires à la vérification de cette conformité.Tout document contenant un virus informatique fera l'objet d'un archivage de sécurité et sera réputé n'avoir jamais été reçu. Il est conseillé aux candidats de soumettre leurs documents à un anti-virus avant envoi. Il est recommandé de lire attentivement les conditions générales jointes au présent règlement de la consultation. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Voies et délais des recours dont dispose le candidat : - Référé précontractuel prévu aux articles L. 551-1 à L. 551-12 du code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. - Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. - Recours de pleine juridiction ouvert aux concurrents évincés, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique. - Recours contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie de Barcarès - Service des Marchés Publics\", \"CORRESPONDANT\": \"Mme Corinne DAURIACH\", \"ADRESSE\": \"Boulevard du 14 juillet BP 5\", \"CP\": \"66421\", \"VILLE\": \"Le Barcares Cedex\", \"MEL\": \"corinne.dauriach@lebarcares.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Montpellier\", \"ADRESSE\": \"6 rue Pitot Cedex 2\", \"CP\": \"34063\", \"VILLE\": \"Montpellier\", \"TEL\": \"(+33) 4-67-54-81-00\", \"FAX\": \"(+33) 4-67-54-74-10\", \"MEL\": \"greffe.ta-montpellier@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Mairie de Barcarès - Service des Marchés Publics\", \"ADRESSE\": \"Boulevard du 14 juillet\", \"CP\": \"66421\", \"VILLE\": \"Le Barcares Cedex\", \"URL\": \"http://www.lebarcares.fr/la-mairie/marches-publics/\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Mairie de Barcarès - Service des Marchés Publics\", \"ADRESSE\": \"Boulevard du 14 juillet\", \"CP\": \"66421\", \"VILLE\": \"Le Barcares Cedex\", \"URL\": \"http://www.lebarcares.fr/la-mairie/marches-publics/\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31443"
+      },
+      {
+        "idweb": "15-31506",
+        "id": "15_31506",
+        "contractfolderid": null,
+        "objet": "maintenance des installations de sécurité incendie pour la ville de Blagnac",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "31"
+        ],
+        "code_departement_prestation": "31",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-14",
+        "datelimitereponse": "2015-04-14T11:00:00+00:00",
+        "nomacheteur": "Ville de Blagnac",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "90",
+          "196",
+          "332"
+        ],
+        "dc": [
+          "90",
+          "196",
+          "332"
+        ],
+        "descripteur_libelle": [
+          "Détection incendie",
+          "Maintenance",
+          "Sécurité incendie"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31506\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31506.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-14\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"90\", \"LIBELLE\": \"Détection incendie\"}, {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"332\", \"LIBELLE\": \"Sécurité incendie\"}]}, \"DEP_PUBLICATION\": \"31\", \"DEP_PRESTATION\": \"31\", \"RESUME_OBJET\": \"maintenance des installations de sécurité incendie pour la ville de Blagnac\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Blagnac\", \"CODE_IDENT_NATIONAL\": \"21310069600011\", \"CORRESPONDANT\": \"KELLER BERNARD, Maire\", \"ADRESSE\": \"1 PLACE JEAN LOUIS PUIG\", \"CP\": \"31700\", \"VILLE\": \"BLAGNAC\", \"TEL\": \"(+33) 5-61-71-72-00\", \"FAX\": \"(+33) 5-61-71-72-73\", \"URL\": \"http://www.mairie-blagnac.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance des installations de sécurité incendie pour la ville de Blagnac\", \"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Il s'agit de la Maintenance des installations de sécurité incendie comprenant : - Les extincteurs et les R.I.A., - Les alarmes incendie, - Les Systèmes de Sécurité Incendie (S.S.I.), - Les installations de désenfumage, - Les installations d'éclairage de sécurité\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR623\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Marché séparé à bons de commande avec mini et maxi et un opérateur économique.Les marchés sont conclus pour une période de 1 an à compter du 01/07/2015 ou de la date de notification si celle-ci est postérieure jusqu'au 30/06/2016. Les marchés sont reconductibles pour 3 périodes de un an\", \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2015-07-01\", \"DATE_FIN\": \"2016-06-30\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Maintenance des extincteurs et des RIA\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"QUANTITE\": \"minimum 10 000.00 Euros maximum 30 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}, \"INFO_COMPL\": \"Références et qualifications : Qualification APSAD et NF Service Référentiel I4-NF285 : extincteurs - Service d'installation et de maintenance... Pour chaque certificat précité, le représentant du pouvoir adjudicateur accepte tout moyen de preuve équivalent\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Maintenance des alarmes incendie\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"QUANTITE\": \"minimum 5 000.00 Euros maximum 20 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"5000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Maintenance des SSI\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"QUANTITE\": \"minimum 10 000.00 Euros maximum 40 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"40000\"}, \"INFO_COMPL\": \"Références et qualifications : Qualification APSAD - Référentiel F7 : détection d'incendie et CMSI - Service de maintenance. . Qualification APSAD - Référentiel I7 : détection d'incendie et CMSI - Service d'installation. .. Pour chaque certificat précité, le représentant du pouvoir adjudicateur accepte tout moyen de preuve équivalent\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Maintenance des installations de désenfumage\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"QUANTITE\": \"minimum 5 000.00 Euros maximum 15 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"5000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"15000\"}, \"INFO_COMPL\": \"Références et qualifications : Qualification APSAD - Référentiel F17 : système de désenfumage naturel - Service de maintenance. . Qualification APSAD - Référentiel I17 : système de désenfumage naturel - Service d'installation. .. Pour chaque certificat précité, le représentant du pouvoir adjudicateur accepte tout moyen de preuve équivalent\"}, {\"NUM\": \"5\", \"DESCRIPTION\": \"Maintenance des installations d'éclairage de sécurité\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"QUANTITE\": \"minimum 5 000.00 Euros maximum 20 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"5000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix des prestations %\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique %\"}, {\"@POIDS\": \"20\", \"#text\": \"Délai d'exécution de la maintenance préventive %\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-14T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune garantie financière n'est exigée\", \"FINANCEMENT\": \"Articles 86 à 111 du Code des marchés publics français. Caractéristiques des prix : Prix unitaires. Modalités de variation des prix : Révision Périodique. Annuelle. Modalité de règlement des comptes : selon les modalités du C.C.A.G.-F.C.S. Le délai global de paiement est de 30 jours. Modalités de financements : En application du budget de la Ville\", \"FORME_JURIDIQUE\": \"Groupement conjoint avec mandataire solidaire. Un candidat ne pourra se présenter à la fois comme mandataire d'un groupement ou candidat individuel, et membre d'un autre groupement. Le candidat peut se présenter seul\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"La lettre de candidature et d'habilitation du mandataire par ses cotraitants: identification du candidat, le cas échéant de la nature du groupement, du lot concerné, de l'habilitation éventuelle du mandataire par ses cotraitants (formulaire DC1) Attestations sur l'honneur de non interdiction de concourir pour le candidat individuel ou chaque membre du groupement, en application des articles 43 et 44 du code des marchés publics et des articles 8 et 38 de l'ordonnance no 2005-649 du 6 juin 2005 modifiée relative aux marchés passés par certaines personnes publiques ou privées non soumises au code des marchés publics.(formulaire DC1) Dans le cas où une telle déclaration sur l'honneur serait fournie par le candidat, le marché ne pourra etre attribué au candidat retenu que sous réserve que celui-ci produise dans le délai de 7 jours à compter de la notification de sa désignation par le pouvoir adjudicateur, les certificats délivrés par les administrations et organismes compétents. Déclaration sur l'honneur relative à la lutte contre le travail dissimulé Déclaration sur l'honneur relative à l'égalité entre les femmes et les hommes Présentation de la société: raison sociale, forme juridique, les éléments relatifs au pouvoir de la personne habilitée pour engager le candidat (formulaire DC2) Si le candidat est en redressement judiciaire, la copie du ou des jugements prononcés\", \"CAP_ECO\": \"Chiffre d'affaires au cours des 3 dernières années\", \"CAP_TECH\": \"Moyens humains et matériels généraux dont dispose le candidat. Tout justificatif permettant d'illustrer les garanties professionnelles du candidat (références, certificats de qualifications ou tout autre moyen garantissant la capacité professionnelle)\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"201502\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.infoMarché à bons de commandeUnité monétaire utilisée, l'euro.Les offres peuvent etre transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé . Dématérialisation des procédures : L'organisme acheteur préconise la transmission des plis par voie électronique. Il accepte cependant les plis adressés par d'autres moyens permettant d'en garantir la confidentialité et la date de réception. Le fuseau horaire de référence sera celui de (GMT+01:00) Paris, Bruxelles, Copenhague, Madrid. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : - Adobe® Acrobat® (.pdf) - Document Microsoft® Word® version 97 et supérieure (.doc ou .rtf) - Feuille Microsoft® Excel® version 97 et supérieure (.xls) - Document texte (.txt) - Images BitMap (.bmp) - Images GIF (.gif) - Images JPEG (.jpeg) - les fichiers générés aux formats précédents et compressés au format Zip® (.zip). Le niveau de sécurité requis pour le certificat de signature électronique est le Niveau (**) du RGS. Les candidats utilisent un certificat conforme au RGS (Référentiel Général de Sécurité) figurant sur la liste de confiance française (http://references.modernisation.gouv.fr) ou sur une liste de confiance d'un autre Etat-membre de l'Union européenne. Toutefois, les candidats sont libres d'utiliser le certificat de leur choix si celui-ci est conforme aux obligations minimales résultant du RGS. Dans ce cas, ils doivent transmettre tous les éléments nécessaires à la vérification de cette conformité.Tout document contenant un virus informatique fera l'objet d'un archivage de sécurité et sera réputé n'avoir jamais été reçu. Il est conseillé aux candidats de soumettre leurs documents à un anti-virus avant envoi. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Direction de la Commande Publique : Sandrine MARC\", \"ADRESSE\": \"241, route de Grenade\", \"CP\": \"31700\", \"VILLE\": \"Blagnac\", \"TEL\": \"(+33) 5-61-71-06-00\", \"FAX\": \"(+33) 5-61-71-08-40\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Toulouse\", \"ADRESSE\": \"68, rue Raymond IV Cedex 07 BP 7007\", \"CP\": \"31068\", \"VILLE\": \"Toulouse\", \"TEL\": \"(+33) 5-62-73-57-57\", \"FAX\": \"(+33) 5-62-73-57-40\", \"MEL\": \"greffe.ta-toulouse@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"MEDIAGRAPH31\", \"ADRESSE\": \"14 route de grenade\", \"CP\": \"31700\", \"VILLE\": \"Beauzelle\", \"TEL\": \"(+33) 5-61-71-61-96\", \"FAX\": \"(+33) 5-61-71-93-48\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Service de Réception des candidatures et des offres\", \"ADRESSE\": \"Hôtel de Ville 1, place jean Louis Puig\", \"CP\": \"31706\", \"VILLE\": \"Blagnac Cedex\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31506"
+      },
+      {
+        "idweb": "15-31534",
+        "id": "15_31534",
+        "contractfolderid": null,
+        "objet": "fourniture de matériel électrique et spécifique éclairage public pour la communauté de communes de Lacq-Orthez",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "64"
+        ],
+        "code_departement_prestation": "64",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-15",
+        "datelimitereponse": "2015-04-15T16:00:00+00:00",
+        "nomacheteur": "Communauté de communes de Lacq-Orthez",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "49",
+          "203"
+        ],
+        "dc": [
+          "49",
+          "203"
+        ],
+        "descripteur_libelle": [
+          "Candélabre",
+          "Matériel électrique"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31534\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31534.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-15T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-15\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"31\", \"LIBELLE\": \"Machines et appareils électriques\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"49\", \"LIBELLE\": \"Candélabre\"}, {\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}]}, \"DEP_PUBLICATION\": \"64\", \"DEP_PRESTATION\": \"64\", \"RESUME_OBJET\": \"fourniture de matériel électrique et spécifique éclairage public pour la communauté de communes de Lacq-Orthez\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de communes de Lacq-Orthez\", \"CORRESPONDANT\": \"Jacques CASSIAU-HAURIE\", \"ADRESSE\": \"Rond-point des chênesBP 73\", \"CP\": \"64150\", \"VILLE\": \"Mourenx\", \"MEL\": \"marchespublics@cc-lacqorthez.fr\", \"URL\": \"http://www.cc-lacqorthez.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.eadministration64.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"EPCI\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de matériel électrique et spécifique éclairage public pour la communauté de communes de Lacq-Orthez\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de matériel électrique et spécifique éclairage public pour la communauté de communes de Lacq-Orthez\", \"CPV\": {\"PRINCIPAL\": \"31000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"communauté de communes de Lacq-Orthez\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"QUANTITE\": \"Il s'agit d'un marché à bons de commande pour un montant minimum de 100 000 euro HT et 900 000 euro HT sur quatre ans.\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-15T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Une avance pourra être versée au titulaire dans les conditions fixées à l'article 87 du CMP. Elle est soumise à la constitution d'une garantie à première demande à hauteur de 100 % du montant de l'avance.\", \"FINANCEMENT\": \"Règlement par mandat administratif - délai de paiement : 30 jours.\", \"FORME_JURIDIQUE\": \"Mandataire solidaire en cas de groupement conjoint.\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"formulaire Dc1, lettre de candidature - habilitation du mandataire par ses co-traitants; formulaire Dc2, déclaration du candidat individuel ou du membre du groupement. - copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ; - déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP ; - renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail.\", \"CAP_ECO\": \"déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures objet du contrat, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ; - liste des principales fournitures effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ; - déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de contrats de même nature.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Pau\", \"ADRESSE\": \"villa Noulibos 50 cours LyauteyBP 543\", \"CP\": \"64010\", \"VILLE\": \"Pau cedex\", \"TEL\": \"(+33) 5-59-84-94-40\", \"FAX\": \"(+33) 5-59-02-49-93\"}}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31534"
+      },
+      {
+        "idweb": "15-31538",
+        "id": "15_31538",
+        "contractfolderid": null,
+        "objet": "fioul domestique et carburants à Aix En Provence",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "13"
+        ],
+        "code_departement_prestation": "13",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-14",
+        "datelimitereponse": "2015-04-14T11:00:00+00:00",
+        "nomacheteur": "groupements de commandes",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "52"
+        ],
+        "dc": [
+          "52"
+        ],
+        "descripteur_libelle": [
+          "Carburant et combustible"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31538\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31538.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-14\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"11\", \"LIBELLE\": \"Hydrocarbures naturels\"}, {\"CODE\": \"14\", \"LIBELLE\": \"Produits divers des industries extractives\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant et combustible\"}}, \"DEP_PUBLICATION\": \"13\", \"DEP_PRESTATION\": \"13\", \"RESUME_OBJET\": \"fioul domestique et carburants à Aix En Provence\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"groupements de commandes\", \"CORRESPONDANT\": \"Groupement des commandes hôtelières\", \"ADRESSE\": \"Centre Hospitalier MontperrinBâtiment administratif 2ème étage109 avenue du petit Barthélémy\", \"CP\": \"13617\", \"VILLE\": \"Aix en Provence cedex1\", \"TEL\": \"(+33) 4-42-16-17-55\", \"FAX\": \"(+33) 4-42-16-17-50\", \"MEL\": \"groupement.hotelier@ch-montperrin.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.klekoon.com\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fioul domestique et carburants\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fioul domestique et carburants\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Etablissements adhérents au Groupement (dépts 13, 26, 30 et 84)\"}, \"AMP_OUI\": \"\", \"VARIANTES_NON\": \"\", \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2015-07-01\", \"DATE_FIN\": \"2018-06-30\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Lot FC.01\", \"DESCRIPTION\": \"Fioul domestique\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Lot FC.02\", \"DESCRIPTION\": \"Carburants\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-14T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucun cautionnement ni garantie\", \"FINANCEMENT\": \"Les prestations seront financées selon les crédits inscrits à l'Etat Prévisionnel des Recettes et des Dépenses (EPRD) de chaque établissement. Paiement par virement administratif. Conformément à l'article 98 du CMP, le délai global de paiement est de 50 jours pour les établissements de santé et de 30 jours pour les établissements à caractère social et médico-social et administrations.\", \"FORME_JURIDIQUE\": \"L'offre sera présentée par une seule entreprise ou par un groupement. En cas de groupement, la forme souhaitée par le pouvoir adjudicateur est un groupement solidaire avec mandataire solidaire. Si le groupement attributaire du marché est d'une forme différente, il pourra se voir contraint d'assurer sa transformation pour se conformer au souhait du pouvoir adjudicateur. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois en qualité de candidat individuel et de membre d'un ou plusieurs groupements ou en qualité de membre de plusieurs groupements.\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Formulaire DC 2 à compléter sous peine d'irrecevabilité\", \"CAP_ECO\": \"Formulaire DC 2 à compléter sous peine d'irrecevabilité\", \"CAP_TECH\": \"Formulaire DC 2 à compléter sous peine d'irrecevabilité\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE MARSEILLE\", \"ADRESSE\": \"22-24 rue Breteuil\", \"CP\": \"13006\", \"VILLE\": \"Marseille\", \"TEL\": \"(+33) 4-91-13-48-13\", \"FAX\": \"(+33) 4-91-81-13-87\", \"MEL\": \"greffe.ta-marseille@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional de Règlement Amiable des Différends ou Litiges relatifs aux Marchés Publics de Marseille\", \"ADRESSE\": \"Préfecture de la Région Provence-Alpes-Côte d'AzurSecrétariat général pour les Affaires RégionalesPlace Félix Baret - CS 80001\", \"CP\": \"13282\", \"VILLE\": \"Marseille cedex 6\", \"TEL\": \"(+33) -49-84-35-45-54\", \"FAX\": \"(+33)4 -84-35-44-60\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31538"
+      },
+      {
+        "idweb": "15-31576",
+        "id": "15_31576",
+        "contractfolderid": null,
+        "objet": "Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "16"
+        ],
+        "code_departement_prestation": "16",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-13",
+        "datelimitereponse": "2015-04-13T17:00:00+00:00",
+        "nomacheteur": "GrandAngoulême agglomération",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "72"
+        ],
+        "dc": [
+          "72"
+        ],
+        "descripteur_libelle": [
+          "Contrôle technique"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31576\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31576.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-13T18:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"72\", \"LIBELLE\": \"Contrôle technique\"}}, \"DEP_PUBLICATION\": \"16\", \"DEP_PRESTATION\": \"16\", \"RESUME_OBJET\": \"Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GrandAngoulême agglomération\", \"CORRESPONDANT\": \"M. Le Président\", \"ADRESSE\": \"25 boulevard Besson Bey\", \"CP\": \"16023\", \"VILLE\": \"Angoulême cedex\", \"TEL\": \"(+33) 5-45-38-69-84\", \"FAX\": \"(+33) 5-45-38-60-85\", \"MEL\": \"marche-pubic@grandangouleme.fr\", \"URL\": \"http://www.grandangouleme.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.grandangouleme.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême.\", \"TYPE_MARCHE\": {\"SERVICE\": \"12\"}, \"OBJET_COMPLET\": \"Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême.\", \"CPV\": [{\"PRINCIPAL\": \"71000000\"}, {\"PRINCIPAL\": \"71500000\"}], \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Le GrandAngoulême prépare des aménagements connexes à la gare qui permettront : - d'améliorer l'accès à la gare pour les usagers extérieurs à l'agglomération : voiries et stationnements mais aussi l'accessibilité du pôle multimodal et des quais de la gare ;- de créer un véritable pôle multimodal entre les trains régionaux, les cars interurbains et SNCF, les bus, les taxis, la future passerelle, les vélos... ;- de mieux accueillir les voyageurs avec une capacité hôtelière renforcée, la mise à disposition de divers services et de locaux d'entreprise.A l'horizon 2017, la mise en service de la Ligne à Grande Vitesse entre Tours et Bordeaux aura pour conséquence, à terme, un doublement des usagers de la gare d'Angoulême. C'est pourquoi le GrandAngoulême s'est engagé dans l'aménagement d'une nouvelle voie desservant la gare sur l'ouest et a opté en conséquence pour un franchissement du faisceau ferroviaire par une passerelle piétonne ainsi que la mise en accessibilité des quais à partir de cette passerelle.Cette passerelle créera un lien urbain entre le Boulevard De Lattre De Tassigny et le secteur de l'Houmeau.Marché simple à prix global et forfaitaire. Les prix sont révisables.Le marché est conclu pour une durée allant de sa date de notification jusqu'à l'expiration de la garantie de parfait achèvement ou après prolongation de ce délai si les réserves signalées lors de la réception ne sont pas toutes levées à la fin de cette période. Dans cette hypothèse, l'achèvement de la mission intervient lors de la levée de la dernière réserve.\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"En application de l'article 35-II 6° du code des marchés publics, le pouvoir adjudicateur se réserve le droit de recourir à des marchés négociés pour la réalisation de prestations similaires à celles qui ont été confiées au titulaire dans le cadre du présent marché. Ces marchés devront être conclus dans un délai de 3 ans à compter de la notification du présent marché et prendront fin au terme de celui-ci.\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-13T18:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Il n'est pas exigé de cautionnement ni de retenue de garantie.\", \"FINANCEMENT\": \"Le budget de la collectivité financera les dépenses afférentes au marché. L'opération bénéficie de subventions dans le cadre: - contrat de projets État-région (CPER) - Subvention RFF .Le règlement des dépenses se fera par mandat administratif dans un délai maximum de 30 jours à compter de la réception de la facture par l'ordonnateur. En application de l'article 87 du code des marchés publics, le titulaire bénéficie d'une avance égale à 5% du montant TTC de la commande ou du marché, sauf renoncement indiqué à l'acte d'engagement. Le versement de cette avance sera subordonné à la constitution d'une garantie à première demande.Le délai maximum de paiement est à 30 jours, à compter de la réception par la collectivité de la demande du titulaire.\", \"FORME_JURIDIQUE\": \"La forme juridique des groupements d'opérateurs pourra être le groupement solidaire ou conjoint. En cas de groupement conjoint, la forme imposée par le pouvoir adjudicateur est le groupement conjoint avec solidarité du mandataire envers les membres du groupement afin de satisfaire la bonne exécution du marché.En cas d'erreur des candidats quant à la forme juridique de leur groupement, leur offre ne sera acceptée que sous réserve qu'ils assurent la transformation nécessaire lors de la mise au point du marché.Afin que l'offre puisse être prise en considération, les certificats, déclarations ou attestations susvisés devront être produits, le cas échéant, par chacun des membres des groupements, au plus tard à la date limite de remise des offres et devront être rédigés en langue française.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ; - Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics (ou formulaire DC1 version août 2014). - Pouvoir de la personne habilitée à engager le candidat et/ou pouvoir des co-traitants dans le cas d'un groupement.- Pour justifier des capacités professionnelles, techniques et financières, les candidats peuvent librement utiliser le formulaire DC2 version août 2014.- Pour justifier des capacités professionnelles, techniques et financières d'autres opérateurs économiques sur lesquels il s'appuie pour présenter sa candidature, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par le pouvoir adjudicateur.\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles ;- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"- déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement, pour chacune des trois dernières années ;-présentation d'une liste des principaux services effectués au cours des trois dernières années , indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de service sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;notamment références en contrôle d'ouvrage d'art - certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques. (des preuves de mesure équivalente de garantie de la qualité pourront toutefois être acceptées si les candidats n'ont pas accès à ces certificats ou n'ont aucune possibilité de les obtenir dans les délais fixés ;-indication des titres d'études et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché ; - en matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise ;- en matière de service, le titulaire, ou le mandataire en cas de groupement, devra fournir la preuve de sa qualification professionnelle pour réaliser les missions objets de la présente consultation ;- L'agrément délivré par le Ministère chargé de la construction du contrôleur technique qui sera chargé de la mission\", \"MARCHE_RESERVE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"GA-15-23\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les critères relatifs à la candidature sont :-garanties et capacités techniques et financières ;-capacités professionnelles. Le dossier de consultation pourra être téléchargé via le profil d'acheteur https://marchespublics.grandangouleme.fr, demandé par télécopie au 05 45 38 60 85, par courriel (marche-public@grandangouleme.fr), par voie postale ou retiré sur place à l'adresse indiquée plus haut.Conditions de remise des offres :Les offres ou les candidatures peuvent être adressés par voie électronique sur le profil d'acheteur https://marchespublics.grandangouleme.fr. Les offres ou les candidatures peuvent également être adressées ou déposées sous pli fermé à l'adresse mentionnée plus haut.. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Les différents actes administratifs détachables relatifs à la procédure de passation et à l'attribution du marché peuvent faire l'objet d'un recours pour excès de pouvoir avant la signature du contrat dans un délai de deux mois à compter de leur notification ou publication. La procédure du référé pré-contractuel prévue aux articles L. 551-1 à L.551-12 du Code de justice administrative peut être mise en oeuvre avant la signature du contrat. La procédure du référé contractuel prévue aux articles L.551-13 à L.551-23 du Code de justice administrative peut être également mise en oeuvre après la signature du contrat sauf introduction préalable d'un référé pré-contractuel. Un recours de pleine juridiction en contestation de la validité du contrat signé peut être introduit dans un délai de deux mois à compter de la publication de l'avis d'attribution et peut être assorti d'une demande de référé suspension (CE, 4 avril 2014, Département du Tarn et Garonne, req. no358994 ; article L.521-1 du Code de justice administrative).\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Communauté d'agglomération du GrandAngouême\", \"CORRESPONDANT\": \"Mme FRANCOIS Nathalie\", \"ADRESSE\": \"25 Boulevard Besson Bey\", \"CP\": \"16023\", \"VILLE\": \"Angoulême cedex\", \"TEL\": \"(+33) 5-45-38-69-84\", \"FAX\": \"(+33) 5-45-38-60-85\", \"MEL\": \"marche-public@grandangouleme.fr\", \"URL\": \"https://marchespublics.grandangouleme.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=246&orgAcronyme=t5y\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Poitiers\", \"ADRESSE\": \"Hôtel Gilbert -15, rue Blossac -B.P. 541\", \"CP\": \"86020\", \"VILLE\": \"Poitiers cedex\", \"TEL\": \"(+33) 5-49-60-79-19\", \"FAX\": \"(+33) 5-49-60-68-09\", \"MEL\": \"greffe.ta-poitiers@juradm.fr\", \"URL\": \"http://www.tapoitiers.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Communauté d'agglomération du GrandAngouême\", \"CORRESPONDANT\": \"Mme FRANCOIS Nathalie\", \"ADRESSE\": \"25 Boulevard Besson Bey\", \"CP\": \"16023\", \"VILLE\": \"Angoulême cedex\", \"TEL\": \"(+33) 5-45-38-69-84\", \"FAX\": \"(+33) 5-45-38-60-85\", \"MEL\": \"marche-public@grandangouleme.fr\", \"URL\": \"https://marchespublics.grandangouleme.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=246&orgAcronyme=t5y\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Communauté d'agglomération du GrandAngouême\", \"CORRESPONDANT\": \"Mme FRANCOIS Nathalie\", \"ADRESSE\": \"25 Boulevard Besson Bey\", \"CP\": \"16023\", \"VILLE\": \"Angoulême cedex\", \"TEL\": \"(+33) 5-45-38-69-84\", \"FAX\": \"(+33) 5-45-38-60-85\", \"MEL\": \"marche-public@grandangouleme.fr\", \"URL\": \"https://marchespublics.grandangouleme.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=246&orgAcronyme=t5y\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31576"
+      },
+      {
+        "idweb": "15-31796",
+        "id": "15_31796",
+        "contractfolderid": null,
+        "objet": "Fourniture de consommables dentaires destinés au centre dentaire et au service de stomatologie du groupe hospitalier du Havre",
+        "filename": "BOAMP-J-AO_2015_062009",
+        "famille": "JOUE",
+        "code_departement": [
+          "76"
+        ],
+        "code_departement_prestation": "76",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-17",
+        "datelimitereponse": "2015-04-17T11:00:00+00:00",
+        "nomacheteur": "Groupe Hospitalier du Havre",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "201"
+        ],
+        "dc": [
+          "201"
+        ],
+        "descripteur_libelle": [
+          "Matériel dentaire"
+        ],
+        "type_marche": [
+          "FOURNITURES"
+        ],
+        "type_marche_facette": [
+          "Fournitures"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31796\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31796.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-17T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-17\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"33\", \"LIBELLE\": \"Instruments médicaux, de précision, d'optique et d'horlogerie\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"201\", \"LIBELLE\": \"Matériel dentaire\"}}, \"DEP_PUBLICATION\": \"76\", \"DEP_PRESTATION\": \"76\", \"RESUME_OBJET\": \"Fourniture de consommables dentaires destinés au centre dentaire et au service de stomatologie du groupe hospitalier du Havre\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Groupe Hospitalier du Havre\", \"CORRESPONDANT\": \"Du havre Groupe hospitalier\", \"CONTACT\": \"DIRECTION DES AFFAIRES MEDICALES,DE LA RECHERCHE CLINIQUE ET DE L'INGENIERIE BIOMEDICALE\", \"ADRESSE\": \"55 bis rue Gustave Flaubert BP 24\", \"CP\": \"76083\", \"VILLE\": \"Le havre\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de consommables dentaires destinés au centre dentaire et au service de stomatologie du Groupe Hospitalier du Havre\", \"CPV\": {\"PRINCIPAL\": \"33141800\"}, \"AMP_OUI\": \"\", \"VARIANTES_OUI\": \"\", \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"Valeur financière 40%\"}, {\"@ORDRE\": \"2\", \"#text\": \"Valeur technique 40%\"}, {\"@ORDRE\": \"3\", \"#text\": \"Etendue de la gamme 20%\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"360\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le marché sera financé sur le budget propre du Groupe hospitalier du Havre et payé à 50 jours\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le dossier de consultation est disponible par Internet à l'adresse suivante : https://www.achatshopitaux.com. En cas de difficulté, merci de contacter la hot line au 08.92.23.21.20. Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ch le havre\", \"CORRESPONDANT\": \"Catherine NAZE-TREHET\", \"ADRESSE\": \"BP 24\", \"CP\": \"76083\", \"VILLE\": \"Le havre cédex\", \"TEL\": \"(+33) -02-32-73-30-27\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rouen\", \"ADRESSE\": \"53 avenue Gustave Flaubert\", \"CP\": \"76005\", \"VILLE\": \"Rouen\", \"TEL\": \"(+33) -02-32-08-12-70\", \"FAX\": \"(+33) -02-32-08-12-71\", \"MEL\": \"greffe.ta-rouen@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ch le havre\", \"CONTACT\": \"Direction des Ressources Matérielles et Logistiques\", \"ADRESSE\": \"55 bis rue Gustave Flaubert BP 24\", \"CP\": \"76083\", \"VILLE\": \"Le havre\", \"TEL\": \"(+33) -02-32-73-30-29\", \"MEL\": \"marches.publics@ch-havre.fr\", \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_0zbAQf3sCD\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31796"
+      },
+      {
+        "idweb": "15-31901",
+        "id": "15_31901",
+        "contractfolderid": null,
+        "objet": "Prestations de transport aérien vers la France métropolitaine",
+        "filename": "BOAMP-J-AO_2015_063003",
+        "famille": "JOUE",
+        "code_departement": [
+          "974"
+        ],
+        "code_departement_prestation": "974",
+        "famille_libelle": "Marchés européens",
+        "dateparution": "2015-03-03",
+        "datefindiffusion": "2015-04-14",
+        "datelimitereponse": "2015-04-14T11:00:00+00:00",
+        "nomacheteur": "SDIS de la Réunion",
+        "titulaire": null,
+        "perimetre": "DIRECTIVE-18",
+        "type_procedure": "OUVERT",
+        "soustype_procedure": null,
+        "procedure_libelle": "Procédure Ouverte",
+        "procedure_categorise": "OUVERT/",
+        "nature": "APPEL_OFFRE",
+        "sousnature": null,
+        "nature_libelle": "Avis de marché",
+        "sousnature_libelle": null,
+        "nature_categorise": "appeloffre/standard",
+        "nature_categorise_libelle": "Avis de marché/",
+        "criteres": null,
+        "marche_public_simplifie": null,
+        "marche_public_simplifie_label": null,
+        "etat": "INITIAL",
+        "descripteur_code": [
+          "347"
+        ],
+        "dc": [
+          "347"
+        ],
+        "descripteur_libelle": [
+          "Transport"
+        ],
+        "type_marche": [
+          "SERVICES"
+        ],
+        "type_marche_facette": [
+          "Services"
+        ],
+        "type_avis": [
+          "5",
+          "1",
+          ""
+        ],
+        "annonce_lie": null,
+        "annonces_anterieures": null,
+        "source_schema": "Boamp_v230.xsd",
+        "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-31901\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-31901.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-03-03\", \"DATE_LIMITE_REPONSE\": \"2015-04-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-04-14\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"62\", \"LIBELLE\": \"Transports aériens\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"347\", \"LIBELLE\": \"Transport\"}}, \"DEP_PUBLICATION\": \"974\", \"DEP_PRESTATION\": \"974\", \"RESUME_OBJET\": \"Prestations de transport aérien vers la France métropolitaine\"}}",
+        "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS de la Réunion\", \"CONTACT\": \"Service commande publique\", \"ADRESSE\": \"94 rue Monthyon\", \"CP\": \"97487\", \"VILLE\": \"Saint-denis cedex\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-90-48-60\", \"FAX\": \"(+33) 2-62-90-76-24\", \"MEL\": \"marches@sdis974.re\", \"URL_PROFIL_ACHETEUR\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Protection des biens et des personnes\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Achat de prestations de transport aérien vers la France métropolitaine.\", \"TYPE_MARCHE\": {\"SERVICE\": \"3\"}, \"OBJET_COMPLET\": \"Le marché a pour objet l'organisation des déplacements professionnels par voie aérienne des agents, des élus ou toutes personnes autorisées par le SDIS entre la Réunion et la France métropolitaine, ainsi que la délivrance des titres de transports correspondants.\", \"CPV\": {\"PRINCIPAL\": \"60400000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Département de la Réunion\", \"CODE_NUTS\": \"FR94\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Marché à bons de commande, conclu avec un seul opérateur, avec un minimum annuel de 60 000 euro(s) TTC et un maximum annuel de 280 000 euro(s) TTC.\", \"OPTIONS\": {\"NON\": \"\"}, \"RECONDUCTIONS\": {\"OUI\": \"\", \"NB_RECONDUCTIONS\": \"2\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"14\", \"#text\": \"Prix (en point)\"}, {\"@POIDS\": \"6\", \"#text\": \"Valeur technique (en point)\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-04-14T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"150\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Néant\", \"FINANCEMENT\": \"Financement sur fonds propres du SDIS.Paiement par virement dans un délai global de 30 jours à compter de la réception de la facture conformément à l'article 98 du code des Marchés Publics.\", \"FORME_JURIDIQUE\": \"Le marché peut être conclu avec une entreprise unique. Les entreprises peuvent aussi se présenter sous forme de groupement (mandataire clairement identifié). Un candidat ne peut pas être mandataire de plus d'un groupement.Chaque candidat ne pourra remettre, pour la présente consultation, qu'une seule offre en agissant en qualité soit de candidat individuel, soit de membre d'un groupement.Si le candidat est un groupement d'entreprises, celui-ci devra se constituer sous la forme solidaire au moment de l'attribution du marché.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Lettre de candidature (DC1) datée et signée par la personne habilitée à engager la société précisant le cas échéant la composition du groupement.Déclaration du candidat (DC2) complétée et signée par la personne habilitée à engager la société.En cas de groupement, il est demandé de joindre le pouvoir du mandataire du groupement si celui-ci est le seul à signer la candidature et/ou l'offre.Si le candidat est en redressement judiciaire, la copie du ou des jugements prononcés à cet effet ;Une déclaration sur l'honneur, dûment datée et signée par le candidat, pour justifier qu'il n'entre dans aucun des cas mentionnés à l'article 43 du Code des Marchés Publics concernant les interdictions de soumissionner.Lorsqu'il y a groupement, les documents précités sont à fournir pour chacun des membres.\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_TECH\": \"Moyens matériels et humains disponibles pour l'exécution des prestations.Qualifications professionnelles.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2014/09/09/AOO/GAF\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"L'heure limite de réception des offres est celle du département de la Réunion.Durée du marché: le marché prend effet à sa date de notification pour une durée d'un an. Il pourra être reconduit tacitement deux fois pour une période d'une année supplémentaire .Date prévisionnelle de début des prestations: mai 2015Les documents de la consultation sont publiés et peuvent être téléchargés sur le profil acheteur http://www.achatpublic.comLes offres peuvent être déposées sur le profil acheteur http://www.achatpublic.com. Date d'envoi du présent avis au JOUE et au BOAMP : 3 mars 2015.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Saint-Denis de la Réunion\", \"ADRESSE\": \"27, rue Félix Guyon BP 2024\", \"CP\": \"97488\", \"VILLE\": \"Saint-denis cedex\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-92-43-60\", \"FAX\": \"(+33) 2-62-92-43-62\", \"MEL\": \"greffe.ta-saintdenis@juradm.fr\", \"URL\": \"http://www.ta-saint-denis.juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Saint-Denis de la Réunion\", \"ADRESSE\": \"27, rue Félix Guyon BP 2024\", \"CP\": \"97488\", \"VILLE\": \"Saint-denis cedex\", \"PAYS\": \"RE\", \"TEL\": \"(+33) 2-62-92-43-60\", \"FAX\": \"(+33) 2-62-92-43-62\", \"MEL\": \"greffe.ta-saintdenis@juradm.fr\", \"URL\": \"http://www.ta-saint-denis.juradm.fr\"}]}}}",
+        "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-31901"
+      }
+    ]
+  }
 }
