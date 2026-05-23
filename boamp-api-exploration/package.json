@@ -1,0 +1,16 @@
+{
+  "name": "boamp-api-exploration",
+  "version": "1.0.0",
+  "description": "Harness d'exploration API BOAMP",
+  "type": "module",
+  "scripts": {
+    "explore": "node src/index.js",
+    "explore:raw": "node src/index.js --mode=raw",
+    "explore:queries": "node src/index.js --mode=queries",
+    "explore:schema": "node src/index.js --mode=schema",
+    "explore:matching": "node src/index.js --mode=matching"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

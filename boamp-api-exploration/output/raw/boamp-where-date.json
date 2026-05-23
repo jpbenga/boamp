@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "url": "https://boamp-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/boamp/records?limit=5&where=dateparution+%3E%3D+date%272026-01-01%27",
+  "error": "REQUEST_FAILED",
+  "details": "fetch failed"
+}
