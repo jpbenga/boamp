@@ -37,6 +37,9 @@ ${exploration.successes.map((s) => `- ${s.name}: ${s.url}`).join('\n') || '- Auc
 ## 5. Requêtes échouées
 ${exploration.failures.map((f) => `- ${f.name}: ${f.error} (${f.details})`).join('\n') || '- Aucune'}
 
+## 5.b Fallbacks activés
+${exploration.successes.filter((s) => s.fallbackUsed).map((s) => `- ${s.name}: ${s.fallbackReason}`).join('\n') || '- Aucun'}
+
 ## 6. Paramètres confirmés
 - limit
 - offset
@@ -46,6 +49,10 @@ ${exploration.failures.map((f) => `- ${f.name}: ${f.error} (${f.details})`).join
 
 ## 7. Paramètres incertains ou non fonctionnels
 - Les paramètres non listés ci-dessus n'ont pas été testés dans ce run.
+
+## 7.b Filtres where “safe” documentés
+- Texte: objet like "%espaces verts%" (fallback q + post-filtrage local)
+- Département: code_departement="69" OR code_departement_prestation="69" (fallback q + post-filtrage local)
 
 ## 8. Structure générale des réponses
 - Clés racine observées: total_count, results (selon réponses OK).
